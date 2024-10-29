@@ -45,7 +45,7 @@
     "db_id": "dw"
   },
   {
-    "question": "List name and floor of the building with the largest floor number?",
+    "question": "List name and floor of the building with the largest floor number.",
     "sql": "SELECT DISTINCT B.BUILDING_NAME, A.FLOOR FROM FAC_FLOOR A JOIN FAC_BUILDING B ON A.BUILDING_KEY = B.FAC_BUILDING_KEY JOIN (SELECT max(f) as highest_floor FROM (SELECT CASE WHEN REGEXP_LIKE(FLOOR, '^\\d+$') THEN TO_NUMBER(FLOOR) ELSE NULL END AS f FROM fac_floor)) ON (CASE WHEN REGEXP_LIKE(A.FLOOR, '^\\d+$') THEN TO_NUMBER(FLOOR) ELSE NULL END) = highest_floor;",
     "db_id": "dw"
   },
@@ -170,7 +170,7 @@
     "db_id": "dw"
   },
   {
-    "question": "What are the academic year, and instructors names for courses offered in the academic year 2022, along with the total number of types of courses per instructor? ",
+    "question": "What are the academic year, and instructors names for courses offered in the academic year 2022, along with the total number of types of courses per instructor?",
     "sql": "SELECT ata.ACADEMIC_YEAR, ed.FULL_NAME, COUNT(distinct so.COURSE_NUMBER) AS Total_Courses FROM SUBJECT_OFFERED so JOIN ACADEMIC_TERMS_ALL ata ON so.TERM_CODE = ata.TERM_CODE JOIN EMPLOYEE_DIRECTORY ed ON so.RESPONSIBLE_FACULTY_MIT_ID = ed.MIT_ID WHERE ata.ACADEMIC_YEAR = 2022 GROUP BY ata.ACADEMIC_YEAR, ed.FULL_NAME;",
     "db_id": "dw"
   },

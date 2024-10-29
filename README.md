@@ -13,11 +13,11 @@ If you find our data or the paper helpful, please cite the paper
 }
 ```
 
-
 ### Datasets
 - `queries.json` includes the natural language question and the gold SQL statement
 - `schema/` includes the schema of tables
-- [Google drive folder]() includes the anonymized database content
+- Anonymized database content will come soon
+<!-- - [Google drive folder]() includes the anonymized database content -->
 
 ### Contact
 Your support in improving this dataset is greatly appreciated! If you have any questions or feedback, please send an email to peterbc@mit.edu.
