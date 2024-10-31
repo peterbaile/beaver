@@ -15,6 +15,11 @@
     "db_id": "dw"
   },
   {
+    "question": "What is the room, floor, building key, building street address, city, state, and postal code of Professor Lily Knapp's office?",
+    "sql": "SELECT fac_rooms.Room, fac_rooms.floor, fac_building_address.BUILDING_KEY, BUILDINGS.BUILDING_STREET_ADDRESS, fac_building_address.CITY, fac_building_address.STATE, fac_building_address.POSTAL_CODE FROM (SELECT office_location FROM employee_directory WHERE full_name = 'Knapp, Lily-Mae') JOIN fac_rooms on office_location = fac_room_key JOIN fac_building_address on fac_rooms.building_key = fac_building_address.BUILDING_KEY JOIN BUILDINGS ON BUILDINGS.BUILDING_KEY = fac_building_address.BUILDING_KEY where fac_building_address.ADDRESS_PURPOSE = 'STREET';",
+    "db_id": "dw"
+  },
+  {
     "question": "Show the unique full room names, building names, the street address, the city, the state and postal code of subjects that are enrollable for Computer Science students.",
     "sql": "SELECT DISTINCT fr.ROOM_FULL_NAME, b.BUILDING_NAME, b.BUILDING_STREET_ADDRESS, fba.CITY, fba.STATE, fba.POSTAL_CODE FROM COURSE_CATALOG_SUBJECT_OFFERED JOIN FCLT_ROOMS fr ON MEET_PLACE = FCLT_ROOM_KEY JOIN FCLT_BUILDING_ADDRESS fba ON fba.FCLT_BUILDING_KEY = fr.FCLT_BUILDING_KEY JOIN FCLT_BUILDING fb ON fb.FCLT_BUILDING_KEY = fr.FCLT_BUILDING_KEY JOIN BUILDINGS b ON b.BUILDING_KEY = fr.FCLT_BUILDING_KEY WHERE DEPARTMENT_NAME = 'Electrical Eng & Computer Sci' AND fba.ADDRESS_PURPOSE = 'STREET';",
     "db_id": "dw"
@@ -45,7 +50,7 @@
     "db_id": "dw"
   },
   {
-    "question": "List name and floor of the building with the largest floor number.",
+    "question": "List name and floor of the building with the largest floor number?",
     "sql": "SELECT DISTINCT B.BUILDING_NAME, A.FLOOR FROM FAC_FLOOR A JOIN FAC_BUILDING B ON A.BUILDING_KEY = B.FAC_BUILDING_KEY JOIN (SELECT max(f) as highest_floor FROM (SELECT CASE WHEN REGEXP_LIKE(FLOOR, '^\\d+$') THEN TO_NUMBER(FLOOR) ELSE NULL END AS f FROM fac_floor)) ON (CASE WHEN REGEXP_LIKE(A.FLOOR, '^\\d+$') THEN TO_NUMBER(FLOOR) ELSE NULL END) = highest_floor;",
     "db_id": "dw"
   },
