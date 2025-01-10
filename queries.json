@@ -15,8 +15,8 @@
     "db_id": "dw"
   },
   {
-    "question": "What is the room, floor, building key, building street address, city, state, and postal code of Professor Lily Knapp's office?",
-    "sql": "SELECT fac_rooms.Room, fac_rooms.floor, fac_building_address.BUILDING_KEY, BUILDINGS.BUILDING_STREET_ADDRESS, fac_building_address.CITY, fac_building_address.STATE, fac_building_address.POSTAL_CODE FROM (SELECT office_location FROM employee_directory WHERE full_name = 'Knapp, Lily-Mae') JOIN fac_rooms on office_location = fac_room_key JOIN fac_building_address on fac_rooms.building_key = fac_building_address.BUILDING_KEY JOIN BUILDINGS ON BUILDINGS.BUILDING_KEY = fac_building_address.BUILDING_KEY where fac_building_address.ADDRESS_PURPOSE = 'STREET';",
+    "question": "What is the room, floor, building key, building street address, city, state, and postal code of Professor Lily Wilkinson's office?",
+    "sql": "SELECT fac_rooms.Room, fac_rooms.floor, fac_building_address.BUILDING_KEY, BUILDINGS.BUILDING_STREET_ADDRESS, fac_building_address.CITY, fac_building_address.STATE, fac_building_address.POSTAL_CODE FROM (SELECT office_location FROM employee_directory WHERE full_name = 'Wilkinson, Lily-Mae') JOIN fac_rooms on office_location = fac_room_key JOIN fac_building_address on fac_rooms.building_key = fac_building_address.BUILDING_KEY JOIN BUILDINGS ON BUILDINGS.BUILDING_KEY = fac_building_address.BUILDING_KEY where fac_building_address.ADDRESS_PURPOSE = 'STREET';",
     "db_id": "dw"
   },
   {

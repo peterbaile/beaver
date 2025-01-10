@@ -15,9 +15,8 @@ If you find our data or the paper helpful, please cite the paper
 
 ### Datasets
 - `queries.json` includes the natural language question and the gold SQL statement.
-- `schema/` includes the schema of tables.
-<!-- - Anonymized database content will come soon -->
-- [Google drive folder](https://drive.google.com/drive/folders/19bRoRxgWQLcJN3LTxwgev0xTahunjPIR?usp=drive_link) includes the anonymized database content for the gold tables and columns. Anonymization of other tables and columns will come soon.
+- `dev_tables.json` includes the table schema.
+- [Google drive folder](https://drive.google.com/drive/folders/19bRoRxgWQLcJN3LTxwgev0xTahunjPIR?usp=drive_link) includes the anonymized database content.
 
 ### Setup
 - We use Oracle Database for executing the queries, so the most reliable approach is to download the free oracle database on your machine and import the data. But we are working on ways to make this process easier.
