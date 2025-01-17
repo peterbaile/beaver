@@ -2269,6 +2269,9 @@
       "VARCHAR2",
       "VARCHAR2",
       "VARCHAR2",
+      "VARCHAR2",
+      "VARCHAR2",
+      "VARCHAR2",
       "VARCHAR2"
     ]
   },
