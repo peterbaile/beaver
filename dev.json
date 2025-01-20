@@ -41,6 +41,13 @@
         "FCLT_BUILDING_ADDRESS.FCLT_BUILDING_KEY",
         "BUILDINGS.BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#BUILDINGS",
+      "dw#sep#MASTER_DEPT_HIERARCHY",
+      "dw#sep#FCLT_BUILDING_ADDRESS",
+      "dw#sep#FCLT_ROOMS",
+      "dw#sep#FCLT_ORG_DLC_KEY"
     ]
   },
   {
@@ -75,6 +82,12 @@
         "IAP_SUBJECT_DETAIL.IAP_SUBJECT_SESSION_KEY",
         "IAP_SUBJECT_SESSION.IAP_SUBJECT_SESSION_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#IAP_SUBJECT_DETAIL",
+      "dw#sep#ACADEMIC_TERMS_ALL",
+      "dw#sep#IAP_SUBJECT_PERSON",
+      "dw#sep#IAP_SUBJECT_SESSION"
     ]
   },
   {
@@ -111,6 +124,12 @@
         "LIBRARY_RESERVE_MATRL_DETAIL.LIBRARY_RESERVE_CATALOG_KEY",
         "LIBRARY_RESERVE_CATALOG.LIBRARY_RESERVE_CATALOG_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#LIBRARY_SUBJECT_OFFERED",
+      "dw#sep#LIBRARY_RESERVE_MATRL_DETAIL",
+      "dw#sep#LIBRARY_COURSE_INSTRUCTOR",
+      "dw#sep#LIBRARY_RESERVE_CATALOG"
     ]
   },
   {
@@ -160,6 +179,12 @@
         "BUILDINGS.BUILDING_KEY",
         "FAC_BUILDING_ADDRESS.BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#BUILDINGS",
+      "dw#sep#EMPLOYEE_DIRECTORY",
+      "dw#sep#FAC_BUILDING_ADDRESS",
+      "dw#sep#FAC_ROOMS"
     ]
   },
   {
@@ -210,6 +235,13 @@
         "BUILDINGS.BUILDING_KEY",
         "FCLT_ROOMS.FCLT_BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_BUILDING",
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#BUILDINGS",
+      "dw#sep#FCLT_BUILDING_ADDRESS",
+      "dw#sep#FCLT_ROOMS"
     ]
   },
   {
@@ -268,6 +300,12 @@
         "FCLT_ROOMS.FCLT_BUILDING_KEY",
         "BUILDINGS.BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_BUILDING_ADDRESS",
+      "dw#sep#SUBJECT_OFFERED",
+      "dw#sep#FCLT_ROOMS",
+      "dw#sep#BUILDINGS"
     ]
   },
   {
@@ -300,6 +338,11 @@
         "TIP_SUBJECT_OFFERED.SUBJECT_ID",
         "TIP_DETAIL.SUBJECT_ID"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#TIP_MATERIAL",
+      "dw#sep#TIP_SUBJECT_OFFERED",
+      "dw#sep#TIP_DETAIL"
     ]
   },
   {
@@ -322,6 +365,11 @@
         "EMPLOYEE_DIRECTORY.OFFICE_LOCATION",
         "FCLT_ROOMS.BUILDING_ROOM"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_BUILDING_HIST",
+      "dw#sep#FCLT_ROOMS",
+      "dw#sep#EMPLOYEE_DIRECTORY"
     ]
   },
   {
@@ -352,6 +400,12 @@
         "FCLT_ROOMS.FCLT_BUILDING_KEY",
         "FCLT_BUILDING.FCLT_BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_BUILDING",
+      "dw#sep#CIS_COURSE_CATALOG",
+      "dw#sep#FCLT_ROOMS",
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED"
     ]
   },
   {
@@ -375,6 +429,11 @@
         "FCLT_ROOMS.BUILDING_ROOM",
         "MIT_STUDENT_DIRECTORY.OFFICE_LOCATION"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_BUILDING",
+      "dw#sep#MIT_STUDENT_DIRECTORY",
+      "dw#sep#FCLT_ROOMS"
     ]
   },
   {
@@ -394,6 +453,10 @@
         "FAC_BUILDING.FAC_BUILDING_KEY",
         "FAC_FLOOR.BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FAC_FLOOR",
+      "dw#sep#FAC_BUILDING"
     ]
   },
   {
@@ -426,6 +489,11 @@
         "TIME_DAY.ACADEMIC_TERM_CODE",
         "IAP_SUBJECT_DETAIL.TERM_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#IAP_SUBJECT_DETAIL",
+      "dw#sep#IAP_SUBJECT_CATEGORY",
+      "dw#sep#TIME_DAY"
     ]
   },
   {
@@ -458,6 +526,11 @@
         "IAP_SUBJECT_SPONSOR.IAP_SUBJECT_SPONSOR_KEY",
         "IAP_SUBJECT_DETAIL.IAP_SUBJECT_SPONSOR_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#IAP_SUBJECT_SESSION",
+      "dw#sep#IAP_SUBJECT_SPONSOR",
+      "dw#sep#IAP_SUBJECT_DETAIL"
     ]
   },
   {
@@ -493,6 +566,11 @@
         "TIME_DAY.ACADEMIC_TERM_CODE",
         "IAP_SUBJECT_DETAIL.TERM_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#IAP_SUBJECT_DETAIL",
+      "dw#sep#IAP_SUBJECT_PERSON",
+      "dw#sep#TIME_DAY"
     ]
   },
   {
@@ -525,6 +603,11 @@
         "ACADEMIC_TERMS_ALL.TERM_CODE",
         "IAP_SUBJECT_DETAIL.TERM_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#IAP_SUBJECT_SESSION",
+      "dw#sep#ACADEMIC_TERMS_ALL",
+      "dw#sep#IAP_SUBJECT_DETAIL"
     ]
   },
   {
@@ -555,6 +638,11 @@
         "IAP_SUBJECT_SESSION.SESSION_LOCATION",
         "BUILDINGS.BUILDING_NUMBER"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#IAP_SUBJECT_SESSION",
+      "dw#sep#BUILDINGS",
+      "dw#sep#IAP_SUBJECT_DETAIL"
     ]
   },
   {
@@ -582,6 +670,11 @@
         "IAP_SUBJECT_SESSION.SESSION_LOCATION",
         "BUILDINGS.BUILDING_NUMBER"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#IAP_SUBJECT_SESSION",
+      "dw#sep#BUILDINGS",
+      "dw#sep#IAP_SUBJECT_DETAIL"
     ]
   },
   {
@@ -617,6 +710,11 @@
         "SIS_COURSE_DESCRIPTION.COURSE",
         "SIS_SUBJECT_CODE.SUBJECT_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SIS_SUBJECT_CODE",
+      "dw#sep#SIS_COURSE_DESCRIPTION",
+      "dw#sep#SIS_DEPARTMENT"
     ]
   },
   {
@@ -656,6 +754,12 @@
         "SIS_SUBJECT_CODE.SUBJECT_CODE",
         "SIS_COURSE_DESCRIPTION.COURSE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SIS_COURSE_DESCRIPTION",
+      "dw#sep#SIS_SUBJECT_CODE",
+      "dw#sep#SIS_ADMIN_DEPARTMENT",
+      "dw#sep#SIS_DEPARTMENT"
     ]
   },
   {
@@ -694,6 +798,11 @@
         "SIS_COURSE_DESCRIPTION.DEPARTMENT",
         "SIS_DEPARTMENT.DEPARTMENT_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SIS_SUBJECT_CODE",
+      "dw#sep#SIS_COURSE_DESCRIPTION",
+      "dw#sep#SIS_DEPARTMENT"
     ]
   },
   {
@@ -731,6 +840,13 @@
         "SPACE_SUPERVISOR_USAGE.DEPT_NAMES",
         "SPACE_UNIT.DLC_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SPACE_DETAIL",
+      "dw#sep#BUILDINGS",
+      "dw#sep#SPACE_SUPERVISOR_USAGE",
+      "dw#sep#SPACE_UNIT",
+      "dw#sep#SPACE_FLOOR"
     ]
   },
   {
@@ -768,6 +884,14 @@
         "SPACE_UNIT.DLC_KEY",
         "SPACE_SUPERVISOR_USAGE.DEPT_NAMES"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_BUILDING",
+      "dw#sep#SPACE_DETAIL",
+      "dw#sep#FCLT_ORGANIZATION",
+      "dw#sep#SPACE_SUPERVISOR_USAGE",
+      "dw#sep#SPACE_UNIT",
+      "dw#sep#SPACE_FLOOR"
     ]
   },
   {
@@ -797,6 +921,11 @@
         "TIP_MATERIAL.TIP_MATERIAL_KEY",
         "TIP_DETAIL.TIP_MATERIAL_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#TIP_MATERIAL",
+      "dw#sep#TIP_SUBJECT_OFFERED",
+      "dw#sep#TIP_DETAIL"
     ]
   },
   {
@@ -845,6 +974,12 @@
         "EMPLOYEE_DIRECTORY.MIT_ID",
         "SUBJECT_OFFERED.RESPONSIBLE_FACULTY_MIT_ID"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SUBJECT_OFFERED",
+      "dw#sep#ACADEMIC_TERMS",
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#EMPLOYEE_DIRECTORY"
     ]
   },
   {
@@ -885,6 +1020,12 @@
         "IAP_SUBJECT_DETAIL.IAP_SUBJECT_SPONSOR_KEY",
         "IAP_SUBJECT_SPONSOR.IAP_SUBJECT_SPONSOR_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#IAP_SUBJECT_DETAIL",
+      "dw#sep#IAP_SUBJECT_SESSION",
+      "dw#sep#IAP_SUBJECT_CATEGORY",
+      "dw#sep#IAP_SUBJECT_SPONSOR"
     ]
   },
   {
@@ -917,6 +1058,11 @@
         "SIS_SUBJECT_CODE.COURSE_NUMBER",
         "SIS_COURSE_DESCRIPTION.COURSE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SIS_SUBJECT_CODE",
+      "dw#sep#SIS_COURSE_DESCRIPTION",
+      "dw#sep#SIS_DEPARTMENT"
     ]
   },
   {
@@ -937,7 +1083,12 @@
         "CIS_COURSE_CATALOG.SUBJECT_ID"
       ]
     },
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "dw#sep#CIS_COURSE_CATALOG",
+      "dw#sep#ACADEMIC_TERMS_ALL",
+      "dw#sep#ACADEMIC_TERM_PARAMETER"
+    ]
   },
   {
     "question": "What is the author, school name, material status, total record counts, and total number of types of courses for each author and school?",
@@ -973,6 +1124,13 @@
         "STUDENT_DEPARTMENT.DEPARTMENT_CODE",
         "TIP_SUBJECT_OFFERED.OFFER_DEPT_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#TIP_DETAIL",
+      "dw#sep#TIP_SUBJECT_OFFERED",
+      "dw#sep#STUDENT_DEPARTMENT",
+      "dw#sep#TIP_MATERIAL",
+      "dw#sep#TIP_MATERIAL_STATUS"
     ]
   },
   {
@@ -1018,6 +1176,12 @@
         "TIP_DETAIL.TIP_SUBJECT_OFFERED_KEY",
         "TIP_SUBJECT_OFFERED.TIP_SUBJECT_OFFERED_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#TIP_MATERIAL",
+      "dw#sep#TIP_SUBJECT_OFFERED",
+      "dw#sep#TIP_MATERIAL_STATUS",
+      "dw#sep#TIP_DETAIL"
     ]
   },
   {
@@ -1058,6 +1222,13 @@
         "STUDENT_DEPARTMENT.DEPARTMENT_CODE",
         "TIP_SUBJECT_OFFERED.OFFER_DEPT_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#TIP_DETAIL",
+      "dw#sep#TIP_SUBJECT_OFFERED",
+      "dw#sep#STUDENT_DEPARTMENT",
+      "dw#sep#TIP_MATERIAL",
+      "dw#sep#TIP_MATERIAL_STATUS"
     ]
   },
   {
@@ -1107,6 +1278,13 @@
         "TIP_DETAIL.TIP_MATERIAL_STATUS_KEY",
         "TIP_MATERIAL_STATUS.TIP_MATERIAL_STATUS_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#ACADEMIC_TERMS_ALL",
+      "dw#sep#TIP_DETAIL",
+      "dw#sep#TIP_SUBJECT_OFFERED",
+      "dw#sep#TIP_MATERIAL",
+      "dw#sep#TIP_MATERIAL_STATUS"
     ]
   },
   {
@@ -1155,6 +1333,13 @@
         "FAC_ROOMS.ORGANIZATION_KEY",
         "FAC_ORGANIZATION.ORGANIZATION_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FAC_ORGANIZATION",
+      "dw#sep#BUILDINGS",
+      "dw#sep#FAC_ROOMS",
+      "dw#sep#FAC_BUILDING_ADDRESS",
+      "dw#sep#FAC_BUILDING"
     ]
   },
   {
@@ -1190,6 +1375,10 @@
         "COURSE_CATALOG_SUBJECT_OFFERED.TERM_CODE",
         "ACADEMIC_TERMS.TERM_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#ACADEMIC_TERMS",
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED"
     ]
   },
   {
@@ -1232,6 +1421,12 @@
         "FAC_ROOMS.ORGANIZATION_KEY",
         "FAC_ORGANIZATION.ORGANIZATION_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FAC_FLOOR",
+      "dw#sep#FAC_ORGANIZATION",
+      "dw#sep#FAC_BUILDING",
+      "dw#sep#FAC_ROOMS"
     ]
   },
   {
@@ -1262,7 +1457,13 @@
         "FAC_ROOMS.FLOOR_KEY"
       ]
     },
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "dw#sep#FAC_FLOOR",
+      "dw#sep#FAC_ORGANIZATION",
+      "dw#sep#FAC_BUILDING",
+      "dw#sep#FAC_ROOMS"
+    ]
   },
   {
     "question": "What are the academic year, and instructors names for courses offered in the academic year 2022, along with the total number of types of courses per instructor?",
@@ -1288,6 +1489,11 @@
         "SUBJECT_OFFERED.RESPONSIBLE_FACULTY_MIT_ID",
         "EMPLOYEE_DIRECTORY.MIT_ID"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SUBJECT_OFFERED",
+      "dw#sep#ACADEMIC_TERMS_ALL",
+      "dw#sep#EMPLOYEE_DIRECTORY"
     ]
   },
   {
@@ -1327,6 +1533,12 @@
         "FAC_ORGANIZATION.ORGANIZATION_KEY",
         "FAC_ROOMS.ORGANIZATION_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FAC_FLOOR",
+      "dw#sep#FAC_ORGANIZATION",
+      "dw#sep#FAC_BUILDING",
+      "dw#sep#FAC_ROOMS"
     ]
   },
   {
@@ -1365,6 +1577,11 @@
         "SIS_ADMIN_DEPARTMENT.SIS_ADMIN_DEPARTMENT_CODE",
         "SIS_DEPARTMENT.DEPARTMENT_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MIT_STUDENT_DIRECTORY",
+      "dw#sep#SIS_ADMIN_DEPARTMENT",
+      "dw#sep#SIS_DEPARTMENT"
     ]
   },
   {
@@ -1398,6 +1615,11 @@
         "COURSE_CATALOG_SUBJECT_OFFERED.TERM_CODE",
         "ACADEMIC_TERMS_ALL.TERM_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#ACADEMIC_TERMS_ALL",
+      "dw#sep#EMPLOYEE_DIRECTORY"
     ]
   },
   {
@@ -1437,6 +1659,12 @@
         "FAC_ROOMS.ORGANIZATION_KEY",
         "FAC_ORGANIZATION.ORGANIZATION_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FAC_ORGANIZATION",
+      "dw#sep#FAC_BUILDING",
+      "dw#sep#BUILDINGS",
+      "dw#sep#FAC_ROOMS"
     ]
   },
   {
@@ -1504,6 +1732,15 @@
         "FAC_ROOMS.BUILDING_KEY",
         "FAC_BUILDING_ADDRESS.BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#BUILDINGS",
+      "dw#sep#FAC_ROOMS",
+      "dw#sep#FAC_FLOOR",
+      "dw#sep#ACADEMIC_TERMS",
+      "dw#sep#FAC_BUILDING_ADDRESS",
+      "dw#sep#EMPLOYEE_DIRECTORY"
     ]
   },
   {
@@ -1546,6 +1783,12 @@
         "ACADEMIC_TERMS_ALL.TERM_CODE",
         "COURSE_CATALOG_SUBJECT_OFFERED.TERM_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#ACADEMIC_TERMS_ALL",
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#SIS_DEPARTMENT",
+      "dw#sep#CIS_HASS_ATTRIBUTE"
     ]
   },
   {
@@ -1605,6 +1848,13 @@
         "FAC_BUILDING.FAC_BUILDING_KEY",
         "BUILDINGS.BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#BUILDINGS",
+      "dw#sep#FAC_ROOMS",
+      "dw#sep#FAC_FLOOR",
+      "dw#sep#FAC_BUILDING_ADDRESS",
+      "dw#sep#FAC_BUILDING"
     ]
   },
   {
@@ -1643,6 +1893,11 @@
         "SIS_COURSE_DESCRIPTION.DEPARTMENT",
         "SIS_DEPARTMENT.DEPARTMENT_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SIS_COURSE_DESCRIPTION",
+      "dw#sep#CIP",
+      "dw#sep#SIS_DEPARTMENT"
     ]
   },
   {
@@ -1676,6 +1931,12 @@
         "LIBRARY_RESERVE_MATRL_DETAIL.LIBRARY_MATERIAL_STATUS_KEY",
         "LIBRARY_MATERIAL_STATUS.LIBRARY_MATERIAL_STATUS_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#LIBRARY_RESERVE_MATRL_DETAIL",
+      "dw#sep#LIBRARY_COURSE_INSTRUCTOR",
+      "dw#sep#LIBRARY_MATERIAL_STATUS",
+      "dw#sep#LIBRARY_RESERVE_CATALOG"
     ]
   },
   {
@@ -1709,6 +1970,12 @@
         "LIBRARY_RESERVE_MATRL_DETAIL.LIBRARY_SUBJECT_OFFERED_KEY",
         "LIBRARY_SUBJECT_OFFERED.LIBRARY_SUBJECT_OFFERED_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#LIBRARY_SUBJECT_OFFERED",
+      "dw#sep#LIBRARY_RESERVE_MATRL_DETAIL",
+      "dw#sep#LIBRARY_COURSE_INSTRUCTOR",
+      "dw#sep#LIBRARY_RESERVE_CATALOG"
     ]
   },
   {
@@ -1765,6 +2032,14 @@
         "ACADEMIC_TERMS_ALL.TERM_CODE",
         "LIBRARY_SUBJECT_OFFERED.TERM_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#LIBRARY_COURSE_INSTRUCTOR",
+      "dw#sep#ACADEMIC_TERMS_ALL",
+      "dw#sep#LIBRARY_RESERVE_CATALOG",
+      "dw#sep#LIBRARY_SUBJECT_OFFERED",
+      "dw#sep#LIBRARY_MATERIAL_STATUS",
+      "dw#sep#LIBRARY_RESERVE_MATRL_DETAIL"
     ]
   },
   {
@@ -1817,6 +2092,15 @@
         "BUILDINGS.BUILDING_KEY",
         "FCLT_BUILDING_ADDRESS.FCLT_BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SPACE_DETAIL",
+      "dw#sep#BUILDINGS",
+      "dw#sep#FCLT_ORGANIZATION",
+      "dw#sep#FCLT_BUILDING_ADDRESS",
+      "dw#sep#SPACE_UNIT",
+      "dw#sep#SPACE_USAGE",
+      "dw#sep#SPACE_FLOOR"
     ]
   },
   {
@@ -1852,6 +2136,11 @@
         "MOIRA_LIST_OWNER.MOIRA_LIST_OWNER_KEY",
         "MOIRA_LIST_DETAIL.MOIRA_LIST_OWNER_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MOIRA_LIST_DETAIL",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#MOIRA_LIST_OWNER"
     ]
   },
   {
@@ -1884,6 +2173,11 @@
         "MOIRA_LIST_DETAIL.MOIRA_LIST_OWNER_KEY",
         "MOIRA_LIST_OWNER.MOIRA_LIST_OWNER_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MOIRA_LIST_DETAIL",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#MOIRA_LIST_OWNER"
     ]
   },
   {
@@ -1916,6 +2210,13 @@
         "ACADEMIC_TERMS.TERM_CODE",
         "COURSE_CATALOG_SUBJECT_OFFERED.TERM_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#ACADEMIC_TERMS",
+      "dw#sep#EMPLOYEE_DIRECTORY",
+      "dw#sep#MOIRA_LIST_DETAIL"
     ]
   },
   {
@@ -1945,6 +2246,13 @@
         "MIT_STUDENT_DIRECTORY.DEPARTMENT",
         "SIS_DEPARTMENT.DEPARTMENT_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SE_PERSON",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#MIT_STUDENT_DIRECTORY",
+      "dw#sep#SIS_DEPARTMENT",
+      "dw#sep#MOIRA_LIST_DETAIL"
     ]
   },
   {
@@ -1978,6 +2286,12 @@
         "MOIRA_LIST.MOIRA_LIST_KEY",
         "MOIRA_LIST_DETAIL.MOIRA_LIST_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MOIRA_LIST_DETAIL",
+      "dw#sep#SE_PERSON",
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#MOIRA_LIST"
     ]
   },
   {
@@ -2015,6 +2329,15 @@
         "LIBRARY_COURSE_INSTRUCTOR.INSTRUCTOR_NAME",
         "SE_PERSON.FULL_NAME"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SE_PERSON",
+      "dw#sep#LIBRARY_COURSE_INSTRUCTOR",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#LIBRARY_RESERVE_CATALOG",
+      "dw#sep#MOIRA_LIST_DETAIL",
+      "dw#sep#LIBRARY_SUBJECT_OFFERED",
+      "dw#sep#LIBRARY_RESERVE_MATRL_DETAIL"
     ]
   },
   {
@@ -2051,6 +2374,12 @@
         "MOIRA_LIST_OWNER.MOIRA_LIST_OWNER_KEY",
         "MOIRA_LIST_DETAIL.MOIRA_LIST_OWNER_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MOIRA_LIST_DETAIL",
+      "dw#sep#SE_PERSON",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#MOIRA_LIST_OWNER"
     ]
   },
   {
@@ -2076,6 +2405,13 @@
         "SE_PERSON.FULL_NAME",
         "MIT_STUDENT_DIRECTORY.FULL_NAME"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SE_PERSON",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#MOIRA_LIST_OWNER",
+      "dw#sep#MIT_STUDENT_DIRECTORY",
+      "dw#sep#MOIRA_LIST_DETAIL"
     ]
   },
   {
@@ -2114,6 +2450,14 @@
         "MOIRA_LIST_DETAIL.MOIRA_LIST_KEY",
         "MOIRA_LIST.MOIRA_LIST_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#FAC_ROOMS",
+      "dw#sep#FAC_FLOOR",
+      "dw#sep#EMPLOYEE_DIRECTORY",
+      "dw#sep#MOIRA_LIST_DETAIL",
+      "dw#sep#FAC_BUILDING"
     ]
   },
   {
@@ -2139,6 +2483,12 @@
         "COURSE_CATALOG_SUBJECT_OFFERED.RESPONSIBLE_FACULTY_MIT_ID",
         "EMPLOYEE_DIRECTORY.MIT_ID"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MOIRA_LIST_DETAIL",
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#EMPLOYEE_DIRECTORY"
     ]
   },
   {
@@ -2180,6 +2530,14 @@
         "MOIRA_LIST.MOIRA_LIST_KEY",
         "MOIRA_LIST_DETAIL.MOIRA_LIST_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SE_PERSON",
+      "dw#sep#SIS_ADMIN_DEPARTMENT",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#MIT_STUDENT_DIRECTORY",
+      "dw#sep#SIS_DEPARTMENT",
+      "dw#sep#MOIRA_LIST_DETAIL"
     ]
   },
   {
@@ -2206,6 +2564,12 @@
         "MOIRA_LIST_OWNER.MOIRA_LIST_OWNER_KEY",
         "MOIRA_LIST_DETAIL.MOIRA_LIST_OWNER_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MOIRA_LIST_DETAIL",
+      "dw#sep#SE_PERSON",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#MOIRA_LIST_OWNER"
     ]
   },
   {
@@ -2242,6 +2606,13 @@
         "SIS_DEPARTMENT.DEPARTMENT_CODE",
         "MIT_STUDENT_DIRECTORY.DEPARTMENT"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SE_PERSON",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#MIT_STUDENT_DIRECTORY",
+      "dw#sep#SIS_DEPARTMENT",
+      "dw#sep#MOIRA_LIST_DETAIL"
     ]
   },
   {
@@ -2268,6 +2639,11 @@
         "EMPLOYEE_DIRECTORY.KRB_NAME",
         "MOIRA_LIST_DETAIL.MOIRA_LIST_MEMBER"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MOIRA_LIST_DETAIL",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#EMPLOYEE_DIRECTORY"
     ]
   },
   {
@@ -2293,6 +2669,11 @@
         "MOIRA_LIST.MOIRA_LIST_KEY",
         "MOIRA_LIST_DETAIL.MOIRA_LIST_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MOIRA_LIST_DETAIL",
+      "dw#sep#SE_PERSON",
+      "dw#sep#MOIRA_LIST"
     ]
   },
   {
@@ -2329,6 +2710,14 @@
         "MIT_STUDENT_DIRECTORY.DEPARTMENT",
         "SIS_ADMIN_DEPARTMENT.SIS_ADMIN_DEPARTMENT_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SE_PERSON",
+      "dw#sep#SIS_ADMIN_DEPARTMENT",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#MOIRA_LIST_OWNER",
+      "dw#sep#MIT_STUDENT_DIRECTORY",
+      "dw#sep#MOIRA_LIST_DETAIL"
     ]
   },
   {
@@ -2358,6 +2747,11 @@
         "MOIRA_LIST_OWNER.MOIRA_LIST_OWNER_KEY",
         "MOIRA_LIST_DETAIL.MOIRA_LIST_OWNER_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MOIRA_LIST_DETAIL",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#MOIRA_LIST_OWNER"
     ]
   },
   {
@@ -2408,6 +2802,13 @@
         "TIP_MATERIAL.TIP_MATERIAL_KEY",
         "TIP_DETAIL.TIP_MATERIAL_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#LIBRARY_RESERVE_CATALOG",
+      "dw#sep#TIP_DETAIL",
+      "dw#sep#SIS_COURSE_DESCRIPTION",
+      "dw#sep#TIP_MATERIAL",
+      "dw#sep#SUBJECT_OFFERED_SUMMARY"
     ]
   },
   {
@@ -2460,6 +2861,12 @@
         "SIS_COURSE_DESCRIPTION.COURSE",
         "COURSE_CATALOG_SUBJECT_OFFERED.SUBJECT_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SIS_COURSE_DESCRIPTION",
+      "dw#sep#ACADEMIC_TERMS",
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#SIS_DEPARTMENT"
     ]
   },
   {
@@ -2505,6 +2912,12 @@
         "SIS_DEPARTMENT.DEPARTMENT_CODE",
         "SIS_SUBJECT_CODE.DEPARTMENT_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SIS_SUBJECT_CODE",
+      "dw#sep#CIS_COURSE_CATALOG",
+      "dw#sep#SIS_DEPARTMENT",
+      "dw#sep#SUBJECT_OFFERED_SUMMARY"
     ]
   },
   {
@@ -2540,6 +2953,11 @@
         "SIS_DEPARTMENT.DEPARTMENT_CODE",
         "SUBJECT_OFFERED_SUMMARY.OFFER_DEPT_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SIS_COURSE_DESCRIPTION",
+      "dw#sep#SIS_DEPARTMENT",
+      "dw#sep#SUBJECT_OFFERED_SUMMARY"
     ]
   },
   {
@@ -2573,6 +2991,12 @@
         "FAC_BUILDING_ADDRESS.BUILDING_KEY",
         "FAC_BUILDING.FAC_BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SUBJECT_OFFERED",
+      "dw#sep#SIS_COURSE_DESCRIPTION",
+      "dw#sep#FAC_BUILDING",
+      "dw#sep#FAC_BUILDING_ADDRESS"
     ]
   },
   {
@@ -2641,6 +3065,14 @@
         "SIS_COURSE_DESCRIPTION.COURSE",
         "COURSE_CATALOG_SUBJECT_OFFERED.SUBJECT_ID"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#FAC_ROOMS",
+      "dw#sep#FAC_MAJOR_USE",
+      "dw#sep#SIS_COURSE_DESCRIPTION",
+      "dw#sep#FAC_BUILDING_ADDRESS",
+      "dw#sep#FAC_BUILDING"
     ]
   },
   {
@@ -2681,6 +3113,13 @@
         "LIBRARY_SUBJECT_OFFERED.COURSE_NUMBER",
         "SIS_SUBJECT_CODE.COURSE_NUMBER"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#LIBRARY_RESERVE_CATALOG",
+      "dw#sep#LIBRARY_SUBJECT_OFFERED",
+      "dw#sep#LIBRARY_MATERIAL_STATUS",
+      "dw#sep#SIS_SUBJECT_CODE",
+      "dw#sep#LIBRARY_RESERVE_MATRL_DETAIL"
     ]
   },
   {
@@ -2714,6 +3153,12 @@
         "LIBRARY_SUBJECT_OFFERED.LIBRARY_SUBJECT_OFFERED_KEY",
         "LIBRARY_RESERVE_MATRL_DETAIL.LIBRARY_SUBJECT_OFFERED_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#LIBRARY_SUBJECT_OFFERED",
+      "dw#sep#LIBRARY_RESERVE_MATRL_DETAIL",
+      "dw#sep#LIBRARY_COURSE_INSTRUCTOR",
+      "dw#sep#LIBRARY_RESERVE_CATALOG"
     ]
   },
   {
@@ -2766,6 +3211,13 @@
         "SIS_DEPARTMENT.DEPARTMENT_CODE",
         "TIP_SUBJECT_OFFERED.OFFER_DEPT_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#TIP_DETAIL",
+      "dw#sep#TIP_SUBJECT_OFFERED",
+      "dw#sep#SIS_DEPARTMENT",
+      "dw#sep#TIP_MATERIAL",
+      "dw#sep#TIP_MATERIAL_STATUS"
     ]
   },
   {
@@ -2799,6 +3251,12 @@
         "TIP_DETAIL.TIP_SUBJECT_OFFERED_KEY",
         "TIP_SUBJECT_OFFERED.TIP_SUBJECT_OFFERED_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#TIP_MATERIAL",
+      "dw#sep#TIP_SUBJECT_OFFERED",
+      "dw#sep#TIP_MATERIAL_STATUS",
+      "dw#sep#TIP_DETAIL"
     ]
   },
   {
@@ -2844,6 +3302,12 @@
         "FCLT_ORGANIZATION.FCLT_ORGANIZATION_KEY",
         "FCLT_ROOMS.FCLT_ORGANIZATION_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_FLOOR",
+      "dw#sep#FCLT_BUILDING",
+      "dw#sep#FCLT_ROOMS",
+      "dw#sep#FCLT_ORGANIZATION"
     ]
   },
   {
@@ -2888,6 +3352,13 @@
         "ACADEMIC_TERM_PARAMETER.TERM_CODE",
         "ACADEMIC_TERMS.TERM_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#ACADEMIC_TERMS",
+      "dw#sep#TIME_MONTH",
+      "dw#sep#TIME_QUARTER",
+      "dw#sep#ACADEMIC_TERM_PARAMETER",
+      "dw#sep#TIME_DAY"
     ]
   },
   {
@@ -2944,6 +3415,13 @@
         "FCLT_ROOMS.FCLT_ORGANIZATION_KEY",
         "FCLT_ORGANIZATION.FCLT_ORGANIZATION_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_BUILDING",
+      "dw#sep#FCLT_ORGANIZATION",
+      "dw#sep#FCLT_BUILDING_ADDRESS",
+      "dw#sep#FCLT_ROOMS",
+      "dw#sep#FCLT_FLOOR"
     ]
   },
   {
@@ -2995,6 +3473,15 @@
         "LIBRARY_RESERVE_MATRL_DETAIL.LIBRARY_COURSE_INSTRUCTOR_KEY",
         "LIBRARY_COURSE_INSTRUCTOR.LIBRARY_COURSE_INSTRUCTOR_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#LIBRARY_COURSE_INSTRUCTOR",
+      "dw#sep#LIBRARY_RESERVE_CATALOG",
+      "dw#sep#TIP_DETAIL",
+      "dw#sep#TIP_SUBJECT_OFFERED",
+      "dw#sep#LIBRARY_SUBJECT_OFFERED",
+      "dw#sep#TIP_MATERIAL",
+      "dw#sep#LIBRARY_RESERVE_MATRL_DETAIL"
     ]
   },
   {
@@ -3033,6 +3520,14 @@
         "LIBRARY_MATERIAL_STATUS.LIBRARY_MATERIAL_STATUS_KEY",
         "LIBRARY_RESERVE_MATRL_DETAIL.LIBRARY_MATERIAL_STATUS_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#TIP_DETAIL",
+      "dw#sep#TIP_SUBJECT_OFFERED",
+      "dw#sep#TIP_MATERIAL_STATUS",
+      "dw#sep#LIBRARY_SUBJECT_OFFERED",
+      "dw#sep#LIBRARY_MATERIAL_STATUS",
+      "dw#sep#LIBRARY_RESERVE_MATRL_DETAIL"
     ]
   },
   {
@@ -3087,6 +3582,11 @@
         "FAC_BUILDING.FAC_BUILDING_KEY",
         "FAC_BUILDING_ADDRESS.BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FAC_BUILDING",
+      "dw#sep#FAC_BUILDING_ADDRESS",
+      "dw#sep#BUILDINGS"
     ]
   },
   {
@@ -3107,7 +3607,10 @@
         "FAC_BUILDING.DATE_OCCUPIED"
       ]
     },
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "dw#sep#FAC_BUILDING"
+    ]
   },
   {
     "question": "Group all buildings at MIT into either owned or leased. For each group, state the ownership type, usage type, number of buildings, gross square footage, number of rooms, and the number of associated organizations. Display the ownership type only if it differs from the previous row. Include subtotals for each group and a grand total across all groups. The subtotal and grand total rows should not include ownership type and usage type. Footage should be rounded to integers and formatted using commas as thousands separators.",
@@ -3143,6 +3646,11 @@
         "FCLT_ORGANIZATION.FCLT_ORGANIZATION_KEY",
         "FCLT_ROOMS.FCLT_ORGANIZATION_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_BUILDING_HIST",
+      "dw#sep#FCLT_ROOMS",
+      "dw#sep#FCLT_ORGANIZATION"
     ]
   },
   {
@@ -3181,6 +3689,11 @@
         "FCLT_ROOMS.FCLT_ORGANIZATION_KEY",
         "FCLT_ORGANIZATION.FCLT_ORGANIZATION_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_BUILDING",
+      "dw#sep#FCLT_ROOMS",
+      "dw#sep#FCLT_ORGANIZATION"
     ]
   },
   {
@@ -3233,6 +3746,11 @@
         "FCLT_ORGANIZATION.DLC_KEY",
         "MASTER_DEPT_HIERARCHY.DLC_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MASTER_DEPT_HIERARCHY",
+      "dw#sep#FCLT_ROOMS",
+      "dw#sep#FCLT_ORGANIZATION"
     ]
   },
   {
@@ -3260,6 +3778,10 @@
         "FCLT_ROOMS.FCLT_MAJOR_USE_KEY",
         "FCLT_MAJOR_USE.FCLT_MAJOR_USE_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_ROOMS",
+      "dw#sep#FCLT_MAJOR_USE"
     ]
   },
   {
@@ -3289,6 +3811,12 @@
         "BUILDINGS.BUILDING_KEY",
         "FAC_ROOMS.BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FAC_FLOOR",
+      "dw#sep#FCLT_ORGANIZATION",
+      "dw#sep#BUILDINGS",
+      "dw#sep#FAC_ROOMS"
     ]
   },
   {
@@ -3329,6 +3857,13 @@
         "FAC_ORGANIZATION.ORGANIZATION_KEY",
         "FAC_ROOMS.ORGANIZATION_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FAC_ORGANIZATION",
+      "dw#sep#FAC_ROOMS",
+      "dw#sep#FAC_FLOOR",
+      "dw#sep#FAC_BUILDING_ADDRESS",
+      "dw#sep#FAC_BUILDING"
     ]
   },
   {
@@ -3379,6 +3914,12 @@
         "ACADEMIC_TERM_PARAMETER.TERM_CODE",
         "LIBRARY_SUBJECT_OFFERED.TERM_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#LIBRARY_SUBJECT_OFFERED",
+      "dw#sep#ACADEMIC_TERM_PARAMETER",
+      "dw#sep#LIBRARY_RESERVE_MATRL_DETAIL",
+      "dw#sep#LIBRARY_RESERVE_CATALOG"
     ]
   },
   {
@@ -3415,6 +3956,12 @@
         "EMPLOYEE_DIRECTORY.MIT_ID",
         "MOIRA_LIST_DETAIL.MOIRA_LIST_MEMBER_MIT_ID"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MOIRA_LIST_DETAIL",
+      "dw#sep#MOIRA_LIST",
+      "dw#sep#MOIRA_LIST_OWNER",
+      "dw#sep#EMPLOYEE_DIRECTORY"
     ]
   },
   {
@@ -3458,6 +4005,12 @@
         "IAP_SUBJECT_CATEGORY.IAP_SUBJECT_CATEGORY_KEY",
         "IAP_SUBJECT_DETAIL.IAP_SUBJECT_CATEGORY_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#IAP_SUBJECT_DETAIL",
+      "dw#sep#IAP_SUBJECT_SESSION",
+      "dw#sep#IAP_SUBJECT_CATEGORY",
+      "dw#sep#IAP_SUBJECT_SPONSOR"
     ]
   },
   {
@@ -3525,6 +4078,13 @@
         "FAC_ROOMS.FAC_ROOM_KEY",
         "EMPLOYEE_DIRECTORY.OFFICE_LOCATION"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_BUILDING_HIST",
+      "dw#sep#BUILDINGS",
+      "dw#sep#FAC_ROOMS",
+      "dw#sep#FAC_BUILDING_ADDRESS",
+      "dw#sep#EMPLOYEE_DIRECTORY"
     ]
   },
   {
@@ -3553,6 +4113,13 @@
         "FCLT_ORGANIZATION.FCLT_ORGANIZATION_KEY",
         "SPACE_UNIT.FCLT_ORGANIZATION_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SPACE_DETAIL",
+      "dw#sep#ZPM_ROOMS_LOAD",
+      "dw#sep#FCLT_ORGANIZATION",
+      "dw#sep#SPACE_UNIT",
+      "dw#sep#SPACE_USAGE"
     ]
   },
   {
@@ -3595,6 +4162,12 @@
         "HR_ORG_UNIT.HR_ORG_UNIT_TITLE",
         "HR_FACULTY_ROSTER.HR_ORG_UNIT_TITLE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#MASTER_DEPT_HIERARCHY",
+      "dw#sep#HR_FACULTY_ROSTER",
+      "dw#sep#HR_ORG_UNIT",
+      "dw#sep#FCLT_ORGANIZATION"
     ]
   },
   {
@@ -3622,6 +4195,12 @@
         "FCLT_ROOMS.FCLT_BUILDING_KEY",
         "FCLT_BUILDING.FCLT_BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_BUILDING",
+      "dw#sep#ACADEMIC_TERMS",
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#FCLT_ROOMS"
     ]
   },
   {
@@ -3653,6 +4232,12 @@
         "FCLT_BUILDING.FCLT_BUILDING_KEY",
         "FCLT_ROOMS.FCLT_BUILDING_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_BUILDING",
+      "dw#sep#ACADEMIC_TERMS",
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#FCLT_ROOMS"
     ]
   },
   {
@@ -3685,6 +4270,12 @@
         "COURSE_CATALOG_SUBJECT_OFFERED.MEET_PLACE",
         "FCLT_ROOMS.FCLT_ROOM_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#FCLT_BUILDING",
+      "dw#sep#ACADEMIC_TERMS",
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#FCLT_ROOMS"
     ]
   },
   {
@@ -3714,6 +4305,10 @@
         "ACADEMIC_TERMS_ALL.TERM_CODE",
         "SUBJECT_SUMMARY.TERM_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#ACADEMIC_TERMS_ALL",
+      "dw#sep#SUBJECT_SUMMARY"
     ]
   },
   {
@@ -3744,6 +4339,11 @@
         "SUBJECT_SUMMARY.SUBJECT_ID",
         "SUBJECT_OFFERED.SUBJECT_ID"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SUBJECT_OFFERED",
+      "dw#sep#ACADEMIC_TERMS_ALL",
+      "dw#sep#SUBJECT_SUMMARY"
     ]
   },
   {
@@ -3772,6 +4372,11 @@
         "TIP_DETAIL.TIP_MATERIAL_KEY",
         "TIP_MATERIAL.TIP_MATERIAL_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#TIP_MATERIAL",
+      "dw#sep#TIP_SUBJECT_OFFERED",
+      "dw#sep#TIP_DETAIL"
     ]
   },
   {
@@ -3803,6 +4408,11 @@
         "SIS_ADMIN_DEPARTMENT.SIS_ADMIN_DEPARTMENT_CODE",
         "SIS_DEPARTMENT.DEPARTMENT_CODE"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#SIS_ADMIN_DEPARTMENT",
+      "dw#sep#SIS_DEPARTMENT",
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED"
     ]
   },
   {
@@ -3837,6 +4447,12 @@
         "IAP_SUBJECT_DETAIL.IAP_SUBJECT_CATEGORY_KEY",
         "IAP_SUBJECT_CATEGORY.IAP_SUBJECT_CATEGORY_KEY"
       ]
+    ],
+    "gold_tables": [
+      "dw#sep#IAP_SUBJECT_DETAIL",
+      "dw#sep#ACADEMIC_TERMS",
+      "dw#sep#IAP_SUBJECT_CATEGORY",
+      "dw#sep#IAP_SUBJECT_SESSION"
     ]
   },
   {
@@ -3854,7 +4470,11 @@
         "COURSE_CATALOG_SUBJECT_OFFERED.SUBJECT_ID"
       ]
     },
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "dw#sep#COURSE_CATALOG_SUBJECT_OFFERED",
+      "dw#sep#ACADEMIC_TERMS_ALL"
+    ]
   },
   {
     "question": "Provide information (including info caches, and security groups) about VMs running on physical host star-76.",
@@ -3865,6 +4485,12 @@
         "INSTANCES.UUID",
         "INSTANCE_INFO_CACHES.INSTANCE_UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -3876,6 +4502,10 @@
         "USER_GROUP_MEMBERSHIP.GROUP_ID",
         "GROUP.ID"
       ]
+    ],
+    "gold_tables": [
+      "keystone#sep#USER_GROUP_MEMBERSHIP",
+      "keystone#sep#GROUP"
     ]
   },
   {
@@ -3895,6 +4525,12 @@
         "FLOATINGIPDNSES.FLOATINGIP_ID",
         "FLOATINGIPS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#FLOATINGIPS",
+      "csail_stata_neutron#sep#FLOATINGIPDNSES"
     ]
   },
   {
@@ -3906,6 +4542,10 @@
         "INSTANCES.UUID",
         "INSTANCE_EXTRA.INSTANCE_UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_EXTRA",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -3921,6 +4561,11 @@
         "INSTANCE_SYSTEM_METADATA.INSTANCE_UUID",
         "INSTANCES.UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_SYSTEM_METADATA",
+      "csail_stata_nova#sep#MIGRATIONS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -3932,6 +4577,10 @@
         "INSTANCE_EXTRA.INSTANCE_UUID",
         "INSTANCES.UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_EXTRA",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -3943,6 +4592,12 @@
         "INSTANCE_INFO_CACHES.INSTANCE_UUID",
         "INSTANCES.UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -3954,6 +4609,10 @@
         "QUOTA_USAGES.ID",
         "RESERVATIONS.USAGE_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#RESERVATIONS",
+      "csail_stata_nova#sep#QUOTA_USAGES"
     ]
   },
   {
@@ -4013,6 +4672,20 @@
         "PORTS.ID",
         "PORTDNSES.PORT_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#IPALLOCATIONS",
+      "csail_stata_neutron#sep#PORTS",
+      "csail_stata_neutron#sep#PORTDNSES",
+      "csail_stata_neutron#sep#ML2_DVR_PORT_BINDINGS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#ALLOWEDADDRESSPAIRS",
+      "csail_stata_neutron#sep#EXTRADHCPOPTS",
+      "csail_stata_neutron#sep#SECURITYGROUPPORTBINDINGS",
+      "csail_stata_neutron#sep#QOS_PORT_POLICY_BINDINGS",
+      "csail_stata_neutron#sep#ML2_PORT_BINDINGS",
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#PORTSECURITYBINDINGS"
     ]
   },
   {
@@ -4072,6 +4745,20 @@
         "PORTS.ID",
         "PORTDNSES.PORT_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#IPALLOCATIONS",
+      "csail_stata_neutron#sep#PORTS",
+      "csail_stata_neutron#sep#PORTDNSES",
+      "csail_stata_neutron#sep#ML2_DVR_PORT_BINDINGS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#ALLOWEDADDRESSPAIRS",
+      "csail_stata_neutron#sep#EXTRADHCPOPTS",
+      "csail_stata_neutron#sep#SECURITYGROUPPORTBINDINGS",
+      "csail_stata_neutron#sep#QOS_PORT_POLICY_BINDINGS",
+      "csail_stata_neutron#sep#ML2_PORT_BINDINGS",
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#PORTSECURITYBINDINGS"
     ]
   },
   {
@@ -4083,6 +4770,11 @@
         "LOCAL_USER.ID",
         "PASSWORD.LOCAL_USER_ID"
       ]
+    ],
+    "gold_tables": [
+      "keystone#sep#USER",
+      "keystone#sep#PASSWORD",
+      "keystone#sep#LOCAL_USER"
     ]
   },
   {
@@ -4094,6 +4786,10 @@
         "INSTANCES.UUID",
         "INSTANCE_EXTRA.INSTANCE_UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_EXTRA",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4149,13 +4845,30 @@
         "PORTDNSES.PORT_ID",
         "PORTS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#IPALLOCATIONS",
+      "csail_stata_neutron#sep#PORTS",
+      "csail_stata_neutron#sep#PORTDNSES",
+      "csail_stata_neutron#sep#ML2_DVR_PORT_BINDINGS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#ALLOWEDADDRESSPAIRS",
+      "csail_stata_neutron#sep#EXTRADHCPOPTS",
+      "csail_stata_neutron#sep#SECURITYGROUPPORTBINDINGS",
+      "csail_stata_neutron#sep#QOS_PORT_POLICY_BINDINGS",
+      "csail_stata_neutron#sep#ML2_PORT_BINDINGS",
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#PORTSECURITYBINDINGS"
     ]
   },
   {
     "question": "Provide information about user with id ccbbd0bdf0104ea68a37483b13b14be2.",
     "sql": "SELECT user.id AS user_id, user.enabled AS user_enabled, user.extra AS user_extra, user.default_project_id AS user_default_project_id \nFROM user \nWHERE user.id = 'ccbbd0bdf0104ea68a37483b13b14be2'",
     "db_id": "keystone",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "keystone#sep#USER"
+    ]
   },
   {
     "question": "Provide information (including info caches, and security groups) about VMs on the physical host astro-92 that have not yet been cleaned up.",
@@ -4166,6 +4879,12 @@
         "INSTANCES.UUID",
         "INSTANCE_INFO_CACHES.INSTANCE_UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4221,13 +4940,31 @@
         "PORTS.ID",
         "PORTDNSES.PORT_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#IPALLOCATIONS",
+      "csail_stata_neutron#sep#PORTS",
+      "csail_stata_neutron#sep#PORTDNSES",
+      "csail_stata_neutron#sep#ML2_DVR_PORT_BINDINGS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#ALLOWEDADDRESSPAIRS",
+      "csail_stata_neutron#sep#EXTRADHCPOPTS",
+      "csail_stata_neutron#sep#SECURITYGROUPPORTBINDINGS",
+      "csail_stata_neutron#sep#QOS_PORT_POLICY_BINDINGS",
+      "csail_stata_neutron#sep#ML2_PORT_BINDINGS",
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#PORTSECURITYBINDINGS"
     ]
   },
   {
     "question": "Provide information about subnet access control for subnet e8da8ec5-364b-4a31-afaf-f68a206b7846.",
     "sql": "SELECT networkrbacs.tenant_id AS networkrbacs_tenant_id, networkrbacs.id AS networkrbacs_id, networkrbacs.target_tenant AS networkrbacs_target_tenant, networkrbacs.action AS networkrbacs_action, networkrbacs.object_id AS networkrbacs_object_id, anon_1.subnets_network_id AS anon_1_subnets_network_id \nFROM (SELECT DISTINCT subnets.network_id AS subnets_network_id \nFROM subnets \nWHERE subnets.id IN ('e8da8ec5-364b-4a31-afaf-f68a206b7846')) AS anon_1 INNER JOIN networkrbacs ON anon_1.subnets_network_id = networkrbacs.object_id ORDER BY anon_1.subnets_network_id",
     "db_id": "csail_stata_neutron",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#SUBNETS"
+    ]
   },
   {
     "question": "Provide information about migrations associated with VM that moves to or from the physical host streak-26.",
@@ -4242,6 +4979,11 @@
         "INSTANCE_SYSTEM_METADATA.INSTANCE_UUID",
         "INSTANCES.UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_SYSTEM_METADATA",
+      "csail_stata_nova#sep#MIGRATIONS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4281,13 +5023,29 @@
         "NETWORKS.ID",
         "NETWORKDNSDOMAINS.NETWORK_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#NETWORKDHCPAGENTBINDINGS",
+      "csail_stata_neutron#sep#AGENTS",
+      "csail_stata_neutron#sep#NETWORKS",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#QOS_NETWORK_POLICY_BINDINGS",
+      "csail_stata_neutron#sep#NETWORKDNSDOMAINS",
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#NETWORKSECURITYBINDINGS"
     ]
   },
   {
     "question": "Provide information about subnet access control for subnet 9ce2600b-6566-4c81-9370-9b758d5f7ccc.",
     "sql": "SELECT networkrbacs.tenant_id AS networkrbacs_tenant_id, networkrbacs.id AS networkrbacs_id, networkrbacs.target_tenant AS networkrbacs_target_tenant, networkrbacs.action AS networkrbacs_action, networkrbacs.object_id AS networkrbacs_object_id, anon_1.subnets_network_id AS anon_1_subnets_network_id \nFROM (SELECT DISTINCT subnets.network_id AS subnets_network_id \nFROM subnets \nWHERE subnets.id IN ('9ce2600b-6566-4c81-9370-9b758d5f7ccc')) AS anon_1 INNER JOIN networkrbacs ON anon_1.subnets_network_id = networkrbacs.object_id ORDER BY anon_1.subnets_network_id",
     "db_id": "csail_stata_neutron",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#SUBNETS"
+    ]
   },
   {
     "question": "Provide information (including info caches, and security groups) for these VMs d6e79a50-82c0-49be-9967-2d5da9c87001, 003c6f3d-6c4c-40dc-840b-81feb6360e31, 7fbac52f-3ee5-4c38-a25a-c52ac39c8bb7, ade24b16-e170-4c2f-a8bd-e0b3ef60a87d, 6fed903f-e4e5-415c-a41c-fc50bdde11de, e1820f1d-ef1b-4155-83fc-b5c9d782a67a, eb216147-8e56-4b6b-99cf-bd6436fd65bb, 5395b5fb-4d3e-4606-9ac4-145431f1fe93, 62e96b06-461a-4cf0-b9d5-80b981760c26.",
@@ -4298,6 +5056,12 @@
         "INSTANCES.UUID",
         "INSTANCE_INFO_CACHES.INSTANCE_UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4313,6 +5077,11 @@
         "INSTANCES.UUID",
         "INSTANCE_SYSTEM_METADATA.INSTANCE_UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_SYSTEM_METADATA",
+      "csail_stata_nova#sep#MIGRATIONS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4324,6 +5093,12 @@
         "INSTANCE_INFO_CACHES.INSTANCE_UUID",
         "INSTANCES.UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4383,6 +5158,20 @@
         "PORTDNSES.PORT_ID",
         "PORTS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#IPALLOCATIONS",
+      "csail_stata_neutron#sep#PORTS",
+      "csail_stata_neutron#sep#PORTDNSES",
+      "csail_stata_neutron#sep#ML2_DVR_PORT_BINDINGS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#ALLOWEDADDRESSPAIRS",
+      "csail_stata_neutron#sep#EXTRADHCPOPTS",
+      "csail_stata_neutron#sep#SECURITYGROUPPORTBINDINGS",
+      "csail_stata_neutron#sep#QOS_PORT_POLICY_BINDINGS",
+      "csail_stata_neutron#sep#ML2_PORT_BINDINGS",
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#PORTSECURITYBINDINGS"
     ]
   },
   {
@@ -4394,6 +5183,11 @@
         "EXTERNALNETWORKS.NETWORK_ID",
         "NETWORKS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#NETWORKS"
     ]
   },
   {
@@ -4417,6 +5211,12 @@
         "INVENTORIES.RESOURCE_PROVIDER_ID",
         "RESOURCE_PROVIDERS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#RESOURCE_PROVIDERS",
+      "csail_stata_nova#sep#ALLOCATIONS",
+      "csail_stata_nova#sep#INVENTORIES",
+      "csail_stata_nova#sep#COMPUTE_NODES"
     ]
   },
   {
@@ -4428,6 +5228,12 @@
         "INSTANCES.UUID",
         "INSTANCE_INFO_CACHES.INSTANCE_UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4479,6 +5285,19 @@
         "STANDARDATTRIBUTES.ID",
         "TAGS.STANDARD_ATTR_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#IPALLOCATIONPOOLS",
+      "csail_stata_neutron#sep#SUBNETPOOLS",
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#SUBNETPOOLPREFIXES",
+      "csail_stata_neutron#sep#SUBNETS",
+      "csail_stata_neutron#sep#DNSNAMESERVERS",
+      "csail_stata_neutron#sep#NETWORKS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#SUBNETROUTES",
+      "csail_stata_neutron#sep#TAGS"
     ]
   },
   {
@@ -4494,6 +5313,11 @@
         "LBAAS_LOADBALANCERS.ID",
         "PROVIDERRESOURCEASSOCIATIONS.RESOURCE_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#PROVIDERRESOURCEASSOCIATIONS",
+      "csail_stata_neutron#sep#LBAAS_LOADBALANCER_STATISTICS",
+      "csail_stata_neutron#sep#LBAAS_LOADBALANCERS"
     ]
   },
   {
@@ -4505,6 +5329,12 @@
         "INSTANCE_INFO_CACHES.INSTANCE_UUID",
         "INSTANCES.UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4516,6 +5346,12 @@
         "INSTANCE_INFO_CACHES.INSTANCE_UUID",
         "INSTANCES.UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4527,6 +5363,15 @@
         "SECURITY_GROUPS.ID",
         "SECURITY_GROUP_RULES.PARENT_GROUP_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_SYSTEM_METADATA",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCE_EXTRA",
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUP_RULES",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4538,6 +5383,12 @@
         "INSTANCES.UUID",
         "INSTANCE_INFO_CACHES.INSTANCE_UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4553,6 +5404,11 @@
         "INSTANCES.UUID",
         "INSTANCE_SYSTEM_METADATA.INSTANCE_UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_SYSTEM_METADATA",
+      "csail_stata_nova#sep#MIGRATIONS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4564,6 +5420,12 @@
         "INSTANCES.UUID",
         "INSTANCE_INFO_CACHES.INSTANCE_UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4587,6 +5449,12 @@
         "RESOURCE_PROVIDERS.ID",
         "INVENTORIES.RESOURCE_PROVIDER_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#RESOURCE_PROVIDERS",
+      "csail_stata_nova#sep#ALLOCATIONS",
+      "csail_stata_nova#sep#INVENTORIES",
+      "csail_stata_nova#sep#COMPUTE_NODES"
     ]
   },
   {
@@ -4602,6 +5470,11 @@
         "INSTANCES.UUID",
         "INSTANCE_SYSTEM_METADATA.INSTANCE_UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_SYSTEM_METADATA",
+      "csail_stata_nova#sep#MIGRATIONS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4613,6 +5486,12 @@
         "INSTANCE_INFO_CACHES.INSTANCE_UUID",
         "INSTANCES.UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4672,6 +5551,20 @@
         "PORTS.ID",
         "PORTDNSES.PORT_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#IPALLOCATIONS",
+      "csail_stata_neutron#sep#PORTS",
+      "csail_stata_neutron#sep#PORTDNSES",
+      "csail_stata_neutron#sep#ML2_DVR_PORT_BINDINGS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#ALLOWEDADDRESSPAIRS",
+      "csail_stata_neutron#sep#EXTRADHCPOPTS",
+      "csail_stata_neutron#sep#SECURITYGROUPPORTBINDINGS",
+      "csail_stata_neutron#sep#QOS_PORT_POLICY_BINDINGS",
+      "csail_stata_neutron#sep#ML2_PORT_BINDINGS",
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#PORTSECURITYBINDINGS"
     ]
   },
   {
@@ -4687,6 +5580,11 @@
         "INSTANCE_SYSTEM_METADATA.INSTANCE_UUID",
         "INSTANCES.UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_SYSTEM_METADATA",
+      "csail_stata_nova#sep#MIGRATIONS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4742,6 +5640,20 @@
         "PORTS.ID",
         "PORTDNSES.PORT_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#IPALLOCATIONS",
+      "csail_stata_neutron#sep#PORTS",
+      "csail_stata_neutron#sep#PORTDNSES",
+      "csail_stata_neutron#sep#ML2_DVR_PORT_BINDINGS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#ALLOWEDADDRESSPAIRS",
+      "csail_stata_neutron#sep#EXTRADHCPOPTS",
+      "csail_stata_neutron#sep#SECURITYGROUPPORTBINDINGS",
+      "csail_stata_neutron#sep#QOS_PORT_POLICY_BINDINGS",
+      "csail_stata_neutron#sep#ML2_PORT_BINDINGS",
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#PORTSECURITYBINDINGS"
     ]
   },
   {
@@ -4753,6 +5665,12 @@
         "INSTANCES.UUID",
         "INSTANCE_INFO_CACHES.INSTANCE_UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4764,6 +5682,15 @@
         "SECURITY_GROUP_RULES.PARENT_GROUP_ID",
         "SECURITY_GROUPS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_SYSTEM_METADATA",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCE_EXTRA",
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUP_RULES",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4799,6 +5726,17 @@
         "NETWORKDNSDOMAINS.NETWORK_ID",
         "NETWORKS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKDHCPAGENTBINDINGS",
+      "csail_stata_neutron#sep#AGENTS",
+      "csail_stata_neutron#sep#NETWORKS",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#QOS_NETWORK_POLICY_BINDINGS",
+      "csail_stata_neutron#sep#NETWORKDNSDOMAINS",
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#NETWORKSECURITYBINDINGS"
     ]
   },
   {
@@ -4814,6 +5752,11 @@
         "INSTANCES.UUID",
         "INSTANCE_SYSTEM_METADATA.INSTANCE_UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_SYSTEM_METADATA",
+      "csail_stata_nova#sep#MIGRATIONS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4833,6 +5776,12 @@
         "NETWORKRBACS.OBJECT_ID",
         "SUBNETS.NETWORK_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#SUBNETS",
+      "csail_stata_neutron#sep#NETWORKS"
     ]
   },
   {
@@ -4844,6 +5793,13 @@
         "SECURITY_GROUP_RULES.PARENT_GROUP_ID",
         "SECURITY_GROUPS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUP_RULES",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4899,6 +5855,20 @@
         "PORTDNSES.PORT_ID",
         "PORTS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#IPALLOCATIONS",
+      "csail_stata_neutron#sep#PORTS",
+      "csail_stata_neutron#sep#PORTDNSES",
+      "csail_stata_neutron#sep#ML2_DVR_PORT_BINDINGS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#ALLOWEDADDRESSPAIRS",
+      "csail_stata_neutron#sep#EXTRADHCPOPTS",
+      "csail_stata_neutron#sep#SECURITYGROUPPORTBINDINGS",
+      "csail_stata_neutron#sep#QOS_PORT_POLICY_BINDINGS",
+      "csail_stata_neutron#sep#ML2_PORT_BINDINGS",
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#PORTSECURITYBINDINGS"
     ]
   },
   {
@@ -4910,6 +5880,10 @@
         "INSTANCE_EXTRA.INSTANCE_UUID",
         "INSTANCES.UUID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_EXTRA",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4921,13 +5895,22 @@
         "USER.ID",
         "LOCAL_USER.USER_ID"
       ]
+    ],
+    "gold_tables": [
+      "keystone#sep#FEDERATED_USER",
+      "keystone#sep#USER",
+      "keystone#sep#LOCAL_USER"
     ]
   },
   {
     "question": "Provide id information about the local user with ID ccbbd0bdf0104ea68a37483b13b14be2.",
     "sql": "SELECT local_user.id AS local_user_id, local_user.user_id AS local_user_user_id, local_user.domain_id AS local_user_domain_id, local_user.name AS local_user_name, anon_1.user_id AS anon_1_user_id\nFROM (SELECT user.id AS user_id\nFROM user\nWHERE user.id = 'ccbbd0bdf0104ea68a37483b13b14be2') AS anon_1 INNER JOIN local_user ON anon_1.user_id = local_user.user_id ORDER BY anon_1.user_id",
     "db_id": "keystone",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "keystone#sep#USER",
+      "keystone#sep#LOCAL_USER"
+    ]
   },
   {
     "question": "Provide information (including security groups, system metadata, extra data, metadata, and info caches) about instance with id 8d3a0be4-dd7b-4f5b-b19f-308e92597462.",
@@ -4938,6 +5921,16 @@
         "SECURITY_GROUPS.ID",
         "SECURITY_GROUP_RULES.PARENT_GROUP_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_SYSTEM_METADATA",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCE_EXTRA",
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#INSTANCE_METADATA",
+      "csail_stata_nova#sep#SECURITY_GROUP_RULES",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4953,6 +5946,11 @@
         "NETWORKRBACS.OBJECT_ID",
         "NETWORKS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#NETWORKS"
     ]
   },
   {
@@ -4968,13 +5966,22 @@
         "NETWORKRBACS.OBJECT_ID",
         "SUBNETS.NETWORK_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#SUBNETS",
+      "csail_stata_neutron#sep#NETWORKS"
     ]
   },
   {
     "question": "What is the oldest version of the nova-consoleauth service in the cloud?",
     "sql": "SELECT min(services.version) AS min_1 FROM services WHERE services.`binary` = 'nova-consoleauth' AND services.deleted = 0 AND services.forced_down = false",
     "db_id": "csail_stata_nova",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "csail_stata_nova#sep#SERVICES"
+    ]
   },
   {
     "question": "Provide information (including info caches, and security groups) about the VM with uuid baa9bc44-cfd3-40e6-800b-80ffcb15ce97.",
@@ -4985,6 +5992,13 @@
         "SECURITY_GROUPS.ID",
         "SECURITY_GROUP_RULES.PARENT_GROUP_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUP_RULES",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -4996,6 +6010,15 @@
         "SECURITY_GROUP_RULES.PARENT_GROUP_ID",
         "SECURITY_GROUPS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_SYSTEM_METADATA",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCE_EXTRA",
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUP_RULES",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -5007,25 +6030,50 @@
         "SECURITY_GROUPS.ID",
         "SECURITY_GROUP_RULES.PARENT_GROUP_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#SECURITY_GROUP_RULES",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
     "question": "Provide information about the 200 latest images that were created at or before 2016-11-28 17:25:32 and have an ID less than cee91088-04a9-4fdf-b2af-a5f2f0889056.",
     "sql": "SELECT anon_1.images_created_at AS anon_1_images_created_at, anon_1.images_updated_at AS anon_1_images_updated_at, anon_1.images_deleted_at AS anon_1_images_deleted_at, anon_1.images_deleted AS anon_1_images_deleted, anon_1.images_id AS anon_1_images_id, anon_1.images_name AS anon_1_images_name, anon_1.images_disk_format AS anon_1_images_disk_format, anon_1.images_container_format AS anon_1_images_container_format, anon_1.images_size AS anon_1_images_size, anon_1.images_virtual_size AS anon_1_images_virtual_size, anon_1.images_status AS anon_1_images_status, anon_1.images_is_public AS anon_1_images_is_public, anon_1.images_checksum AS anon_1_images_checksum, anon_1.images_min_disk AS anon_1_images_min_disk, anon_1.images_min_ram AS anon_1_images_min_ram, anon_1.images_owner AS anon_1_images_owner, anon_1.images_protected AS anon_1_images_protected, image_tags_1.created_at AS image_tags_1_created_at, image_tags_1.updated_at AS image_tags_1_updated_at, image_tags_1.deleted_at AS image_tags_1_deleted_at, image_tags_1.deleted AS image_tags_1_deleted, image_tags_1.id AS image_tags_1_id, image_tags_1.image_id AS image_tags_1_image_id, image_tags_1.value AS image_tags_1_value, image_locations_1.created_at AS image_locations_1_created_at, image_locations_1.updated_at AS image_locations_1_updated_at, image_locations_1.deleted_at AS image_locations_1_deleted_at, image_locations_1.deleted AS image_locations_1_deleted, image_locations_1.id AS image_locations_1_id, image_locations_1.image_id AS image_locations_1_image_id, image_locations_1.value AS image_locations_1_value, image_locations_1.meta_data AS image_locations_1_meta_data, image_locations_1.status AS image_locations_1_status, image_properties_1.created_at AS image_properties_1_created_at, image_properties_1.updated_at AS image_properties_1_updated_at, image_properties_1.deleted_at AS image_properties_1_deleted_at, image_properties_1.deleted AS image_properties_1_deleted, image_properties_1.id AS image_properties_1_id, image_properties_1.image_id AS image_properties_1_image_id, image_properties_1.name AS image_properties_1_name, image_properties_1.value AS image_properties_1_value\nFROM (SELECT images.created_at AS images_created_at, images.updated_at AS images_updated_at, images.deleted_at AS images_deleted_at, images.deleted AS images_deleted, images.id AS images_id, images.name AS images_name, images.disk_format AS images_disk_format, images.container_format AS images_container_format, images.size AS images_size, images.virtual_size AS images_virtual_size, images.status AS images_status, images.is_public AS images_is_public, images.checksum AS images_checksum, images.min_disk AS images_min_disk, images.min_ram AS images_min_ram, images.owner AS images_owner, images.protected AS images_protected\nFROM images\nWHERE images.deleted = false AND images.status IN ('active', 'saving', 'queued', 'pending_delete', 'deleted', 'deactivated') AND (CASE WHEN (images.created_at IS NOT NULL) THEN images.created_at END < '2016-11-28 17:25:32' OR CASE WHEN (images.created_at IS NOT NULL) THEN images.created_at END = '2016-11-28 17:25:32' AND CASE WHEN (images.id IS NOT NULL) THEN images.id ELSE '' END < 'cee91088-04a9-4fdf-b2af-a5f2f0889056') ORDER BY images.created_at DESC, images.id DESC\nLIMIT 200) AS anon_1 LEFT OUTER JOIN image_tags AS image_tags_1 ON anon_1.images_id = image_tags_1.image_id LEFT OUTER JOIN image_locations AS image_locations_1 ON anon_1.images_id = image_locations_1.image_id LEFT OUTER JOIN image_properties AS image_properties_1 ON anon_1.images_id = image_properties_1.image_id ORDER BY anon_1.images_created_at DESC, anon_1.images_id DESC",
     "db_id": "csail_stata_glance",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "csail_stata_glance#sep#IMAGE_PROPERTIES",
+      "csail_stata_glance#sep#IMAGE_TAGS",
+      "csail_stata_glance#sep#IMAGES",
+      "csail_stata_glance#sep#IMAGE_LOCATIONS"
+    ]
   },
   {
     "question": "Provide information about the 200 latest images.",
     "sql": "SELECT anon_1.images_created_at AS anon_1_images_created_at, anon_1.images_updated_at AS anon_1_images_updated_at, anon_1.images_deleted_at AS anon_1_images_deleted_at, anon_1.images_deleted AS anon_1_images_deleted, anon_1.images_id AS anon_1_images_id, anon_1.images_name AS anon_1_images_name, anon_1.images_disk_format AS anon_1_images_disk_format, anon_1.images_container_format AS anon_1_images_container_format, anon_1.images_size AS anon_1_images_size, anon_1.images_virtual_size AS anon_1_images_virtual_size, anon_1.images_status AS anon_1_images_status, anon_1.images_is_public AS anon_1_images_is_public, anon_1.images_checksum AS anon_1_images_checksum, anon_1.images_min_disk AS anon_1_images_min_disk, anon_1.images_min_ram AS anon_1_images_min_ram, anon_1.images_owner AS anon_1_images_owner, anon_1.images_protected AS anon_1_images_protected, image_tags_1.created_at AS image_tags_1_created_at, image_tags_1.updated_at AS image_tags_1_updated_at, image_tags_1.deleted_at AS image_tags_1_deleted_at, image_tags_1.deleted AS image_tags_1_deleted, image_tags_1.id AS image_tags_1_id, image_tags_1.image_id AS image_tags_1_image_id, image_tags_1.value AS image_tags_1_value, image_locations_1.created_at AS image_locations_1_created_at, image_locations_1.updated_at AS image_locations_1_updated_at, image_locations_1.deleted_at AS image_locations_1_deleted_at, image_locations_1.deleted AS image_locations_1_deleted, image_locations_1.id AS image_locations_1_id, image_locations_1.image_id AS image_locations_1_image_id, image_locations_1.value AS image_locations_1_value, image_locations_1.meta_data AS image_locations_1_meta_data, image_locations_1.status AS image_locations_1_status, image_properties_1.created_at AS image_properties_1_created_at, image_properties_1.updated_at AS image_properties_1_updated_at, image_properties_1.deleted_at AS image_properties_1_deleted_at, image_properties_1.deleted AS image_properties_1_deleted, image_properties_1.id AS image_properties_1_id, image_properties_1.image_id AS image_properties_1_image_id, image_properties_1.name AS image_properties_1_name, image_properties_1.value AS image_properties_1_value\nFROM (SELECT images.created_at AS images_created_at, images.updated_at AS images_updated_at, images.deleted_at AS images_deleted_at, images.deleted AS images_deleted, images.id AS images_id, images.name AS images_name, images.disk_format AS images_disk_format, images.container_format AS images_container_format, images.size AS images_size, images.virtual_size AS images_virtual_size, images.status AS images_status, images.is_public AS images_is_public, images.checksum AS images_checksum, images.min_disk AS images_min_disk, images.min_ram AS images_min_ram, images.owner AS images_owner, images.protected AS images_protected\nFROM images\nWHERE images.deleted = false AND images.status IN ('active', 'saving', 'queued', 'pending_delete', 'deleted', 'deactivated') ORDER BY images.created_at DESC, images.id DESC\nLIMIT 200) AS anon_1 LEFT OUTER JOIN image_tags AS image_tags_1 ON anon_1.images_id = image_tags_1.image_id LEFT OUTER JOIN image_locations AS image_locations_1 ON anon_1.images_id = image_locations_1.image_id LEFT OUTER JOIN image_properties AS image_properties_1 ON anon_1.images_id = image_properties_1.image_id ORDER BY anon_1.images_created_at DESC, anon_1.images_id DESC",
     "db_id": "csail_stata_glance",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "csail_stata_glance#sep#IMAGE_PROPERTIES",
+      "csail_stata_glance#sep#IMAGE_TAGS",
+      "csail_stata_glance#sep#IMAGES",
+      "csail_stata_glance#sep#IMAGE_LOCATIONS"
+    ]
   },
   {
     "question": "Provide information about the 25 latest images that were created at or before 2022-06-06 17:12:44 and have an ID less than f964c0ae-58d1-49e5-8f2a-67902b86a99c.",
     "sql": "SELECT anon_1.images_created_at AS anon_1_images_created_at, anon_1.images_updated_at AS anon_1_images_updated_at, anon_1.images_deleted_at AS anon_1_images_deleted_at, anon_1.images_deleted AS anon_1_images_deleted, anon_1.images_id AS anon_1_images_id, anon_1.images_name AS anon_1_images_name, anon_1.images_disk_format AS anon_1_images_disk_format, anon_1.images_container_format AS anon_1_images_container_format, anon_1.images_size AS anon_1_images_size, anon_1.images_virtual_size AS anon_1_images_virtual_size, anon_1.images_status AS anon_1_images_status, anon_1.images_is_public AS anon_1_images_is_public, anon_1.images_checksum AS anon_1_images_checksum, anon_1.images_min_disk AS anon_1_images_min_disk, anon_1.images_min_ram AS anon_1_images_min_ram, anon_1.images_owner AS anon_1_images_owner, anon_1.images_protected AS anon_1_images_protected, image_tags_1.created_at AS image_tags_1_created_at, image_tags_1.updated_at AS image_tags_1_updated_at, image_tags_1.deleted_at AS image_tags_1_deleted_at, image_tags_1.deleted AS image_tags_1_deleted, image_tags_1.id AS image_tags_1_id, image_tags_1.image_id AS image_tags_1_image_id, image_tags_1.value AS image_tags_1_value, image_locations_1.created_at AS image_locations_1_created_at, image_locations_1.updated_at AS image_locations_1_updated_at, image_locations_1.deleted_at AS image_locations_1_deleted_at, image_locations_1.deleted AS image_locations_1_deleted, image_locations_1.id AS image_locations_1_id, image_locations_1.image_id AS image_locations_1_image_id, image_locations_1.value AS image_locations_1_value, image_locations_1.meta_data AS image_locations_1_meta_data, image_locations_1.status AS image_locations_1_status, image_properties_1.created_at AS image_properties_1_created_at, image_properties_1.updated_at AS image_properties_1_updated_at, image_properties_1.deleted_at AS image_properties_1_deleted_at, image_properties_1.deleted AS image_properties_1_deleted, image_properties_1.id AS image_properties_1_id, image_properties_1.image_id AS image_properties_1_image_id, image_properties_1.name AS image_properties_1_name, image_properties_1.value AS image_properties_1_value\nFROM (SELECT images.created_at AS images_created_at, images.updated_at AS images_updated_at, images.deleted_at AS images_deleted_at, images.deleted AS images_deleted, images.id AS images_id, images.name AS images_name, images.disk_format AS images_disk_format, images.container_format AS images_container_format, images.size AS images_size, images.virtual_size AS images_virtual_size, images.status AS images_status, images.is_public AS images_is_public, images.checksum AS images_checksum, images.min_disk AS images_min_disk, images.min_ram AS images_min_ram, images.owner AS images_owner, images.protected AS images_protected\nFROM images\nWHERE images.deleted = false AND images.status IN ('active', 'saving', 'queued', 'pending_delete', 'deleted', 'deactivated') AND images.is_public = true AND (CASE WHEN (images.created_at IS NOT NULL) THEN images.created_at END < '2022-06-06 17:12:44' OR CASE WHEN (images.created_at IS NOT NULL) THEN images.created_at END = '2022-06-06 17:12:44' AND CASE WHEN (images.id IS NOT NULL) THEN images.id ELSE '' END < 'f964c0ae-58d1-49e5-8f2a-67902b86a99c') ORDER BY images.created_at DESC, images.id DESC\nLIMIT 25) AS anon_1 LEFT OUTER JOIN image_tags AS image_tags_1 ON anon_1.images_id = image_tags_1.image_id LEFT OUTER JOIN image_locations AS image_locations_1 ON anon_1.images_id = image_locations_1.image_id LEFT OUTER JOIN image_properties AS image_properties_1 ON anon_1.images_id = image_properties_1.image_id ORDER BY anon_1.images_created_at DESC, anon_1.images_id DESC",
     "db_id": "csail_stata_glance",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "csail_stata_glance#sep#IMAGE_PROPERTIES",
+      "csail_stata_glance#sep#IMAGE_TAGS",
+      "csail_stata_glance#sep#IMAGES",
+      "csail_stata_glance#sep#IMAGE_LOCATIONS"
+    ]
   },
   {
     "question": "Provide information (including security groups, info caches, extra data, and metadata) about the 3000 latest instances in the project with id bfd50153a2e9476f93e33e30e922cd06.",
@@ -5036,6 +6084,14 @@
         "SECURITY_GROUP_INSTANCE_ASSOCIATION.SECURITY_GROUP_ID",
         "SECURITY_GROUPS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCE_EXTRA",
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#INSTANCE_METADATA",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -5047,25 +6103,50 @@
         "SECURITY_GROUPS.ID",
         "SECURITY_GROUP_RULES.PARENT_GROUP_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_SYSTEM_METADATA",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCE_EXTRA",
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#INSTANCE_METADATA",
+      "csail_stata_nova#sep#PCI_DEVICES",
+      "csail_stata_nova#sep#SECURITY_GROUP_RULES",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
     "question": "Provide information about the 3000 instance types available to project bfd50153a2e9476f93e33e30e922cd06, sorted in the ascending order flavor id and id.",
     "sql": "SELECT anon_1.instance_types_created_at AS anon_1_instance_types_created_at, anon_1.instance_types_updated_at AS anon_1_instance_types_updated_at, anon_1.instance_types_deleted_at AS anon_1_instance_types_deleted_at, anon_1.instance_types_deleted AS anon_1_instance_types_deleted, anon_1.instance_types_id AS anon_1_instance_types_id, anon_1.instance_types_name AS anon_1_instance_types_name, anon_1.instance_types_memory_mb AS anon_1_instance_types_memory_mb, anon_1.instance_types_vcpus AS anon_1_instance_types_vcpus, anon_1.instance_types_root_gb AS anon_1_instance_types_root_gb, anon_1.instance_types_ephemeral_gb AS anon_1_instance_types_ephemeral_gb, anon_1.instance_types_flavorid AS anon_1_instance_types_flavorid, anon_1.instance_types_swap AS anon_1_instance_types_swap, anon_1.instance_types_rxtx_factor AS anon_1_instance_types_rxtx_factor, anon_1.instance_types_vcpu_weight AS anon_1_instance_types_vcpu_weight, anon_1.instance_types_disabled AS anon_1_instance_types_disabled, anon_1.instance_types_is_public AS anon_1_instance_types_is_public, instance_type_extra_specs_1.created_at AS instance_type_extra_specs_1_created_at, instance_type_extra_specs_1.updated_at AS instance_type_extra_specs_1_updated_at, instance_type_extra_specs_1.deleted_at AS instance_type_extra_specs_1_deleted_at, instance_type_extra_specs_1.deleted AS instance_type_extra_specs_1_deleted, instance_type_extra_specs_1.id AS instance_type_extra_specs_1_id, instance_type_extra_specs_1.`key` AS instance_type_extra_specs_1_key, instance_type_extra_specs_1.value AS instance_type_extra_specs_1_value, instance_type_extra_specs_1.instance_type_id AS instance_type_extra_specs_1_instance_type_id\nFROM (SELECT instance_types.created_at AS instance_types_created_at, instance_types.updated_at AS instance_types_updated_at, instance_types.deleted_at AS instance_types_deleted_at, instance_types.deleted AS instance_types_deleted, instance_types.id AS instance_types_id, instance_types.name AS instance_types_name, instance_types.memory_mb AS instance_types_memory_mb, instance_types.vcpus AS instance_types_vcpus, instance_types.root_gb AS instance_types_root_gb, instance_types.ephemeral_gb AS instance_types_ephemeral_gb, instance_types.flavorid AS instance_types_flavorid, instance_types.swap AS instance_types_swap, instance_types.rxtx_factor AS instance_types_rxtx_factor, instance_types.vcpu_weight AS instance_types_vcpu_weight, instance_types.disabled AS instance_types_disabled, instance_types.is_public AS instance_types_is_public\nFROM instance_types\nWHERE instance_types.deleted = 0 AND (instance_types.is_public = true OR (EXISTS (SELECT 1\nFROM instance_type_projects\nWHERE instance_type_projects.instance_type_id = instance_types.id AND instance_type_projects.deleted = 0 AND instance_type_projects.project_id = 'bfd50153a2e9476f93e33e30e922cd06'))) AND instance_types.disabled = false AND (instance_types.is_public = true OR (EXISTS (SELECT 1\nFROM instance_type_projects\nWHERE instance_type_projects.instance_type_id = instance_types.id AND instance_type_projects.deleted = 0 AND instance_type_projects.deleted = 0 AND instance_type_projects.project_id = 'bfd50153a2e9476f93e33e30e922cd06'))) ORDER BY instance_types.flavorid ASC, instance_types.id ASC\nLIMIT 3000) AS anon_1 LEFT OUTER JOIN instance_type_extra_specs AS instance_type_extra_specs_1 ON instance_type_extra_specs_1.instance_type_id = anon_1.instance_types_id AND instance_type_extra_specs_1.deleted = 0 ORDER BY anon_1.instance_types_flavorid ASC, anon_1.instance_types_id ASC",
     "db_id": "csail_stata_nova",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_TYPE_EXTRA_SPECS",
+      "csail_stata_nova#sep#INSTANCE_TYPES",
+      "csail_stata_nova#sep#INSTANCE_TYPE_PROJECTS"
+    ]
   },
   {
     "question": "Provide information about the host aggregate with id default.",
     "sql": "SELECT anon_1.aggregates_created_at AS anon_1_aggregates_created_at, anon_1.aggregates_updated_at AS anon_1_aggregates_updated_at, anon_1.aggregates_deleted_at AS anon_1_aggregates_deleted_at, anon_1.aggregates_deleted AS anon_1_aggregates_deleted, anon_1.aggregates_id AS anon_1_aggregates_id, anon_1.aggregates_uuid AS anon_1_aggregates_uuid, anon_1.aggregates_name AS anon_1_aggregates_name, aggregate_hosts_1.created_at AS aggregate_hosts_1_created_at, aggregate_hosts_1.updated_at AS aggregate_hosts_1_updated_at, aggregate_hosts_1.deleted_at AS aggregate_hosts_1_deleted_at, aggregate_hosts_1.deleted AS aggregate_hosts_1_deleted, aggregate_hosts_1.id AS aggregate_hosts_1_id, aggregate_hosts_1.host AS aggregate_hosts_1_host, aggregate_hosts_1.aggregate_id AS aggregate_hosts_1_aggregate_id, aggregate_metadata_1.created_at AS aggregate_metadata_1_created_at, aggregate_metadata_1.updated_at AS aggregate_metadata_1_updated_at, aggregate_metadata_1.deleted_at AS aggregate_metadata_1_deleted_at, aggregate_metadata_1.deleted AS aggregate_metadata_1_deleted, aggregate_metadata_1.id AS aggregate_metadata_1_id, aggregate_metadata_1.`key` AS aggregate_metadata_1_key, aggregate_metadata_1.value AS aggregate_metadata_1_value, aggregate_metadata_1.aggregate_id AS aggregate_metadata_1_aggregate_id\nFROM (SELECT aggregates.created_at AS aggregates_created_at, aggregates.updated_at AS aggregates_updated_at, aggregates.deleted_at AS aggregates_deleted_at, aggregates.deleted AS aggregates_deleted, aggregates.id AS aggregates_id, aggregates.uuid AS aggregates_uuid, aggregates.name AS aggregates_name\nFROM aggregates\nWHERE aggregates.deleted = 0 AND aggregates.id = 'default'\nLIMIT 1) AS anon_1 LEFT OUTER JOIN aggregate_hosts AS aggregate_hosts_1 ON anon_1.aggregates_id = aggregate_hosts_1.aggregate_id AND aggregate_hosts_1.deleted = 0 AND anon_1.aggregates_deleted = 0 LEFT OUTER JOIN aggregate_metadata AS aggregate_metadata_1 ON anon_1.aggregates_id = aggregate_metadata_1.aggregate_id AND aggregate_metadata_1.deleted = 0 AND anon_1.aggregates_deleted = 0",
     "db_id": "csail_stata_nova",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "csail_stata_nova#sep#AGGREGATE_HOSTS",
+      "csail_stata_nova#sep#AGGREGATE_METADATA",
+      "csail_stata_nova#sep#AGGREGATES"
+    ]
   },
   {
     "question": "Provide information about the 3000 instance types, sorted in the ascending order flavor id and id.",
     "sql": "SELECT anon_1.instance_types_created_at AS anon_1_instance_types_created_at, anon_1.instance_types_updated_at AS anon_1_instance_types_updated_at, anon_1.instance_types_deleted_at AS anon_1_instance_types_deleted_at, anon_1.instance_types_deleted AS anon_1_instance_types_deleted, anon_1.instance_types_id AS anon_1_instance_types_id, anon_1.instance_types_name AS anon_1_instance_types_name, anon_1.instance_types_memory_mb AS anon_1_instance_types_memory_mb, anon_1.instance_types_vcpus AS anon_1_instance_types_vcpus, anon_1.instance_types_root_gb AS anon_1_instance_types_root_gb, anon_1.instance_types_ephemeral_gb AS anon_1_instance_types_ephemeral_gb, anon_1.instance_types_flavorid AS anon_1_instance_types_flavorid, anon_1.instance_types_swap AS anon_1_instance_types_swap, anon_1.instance_types_rxtx_factor AS anon_1_instance_types_rxtx_factor, anon_1.instance_types_vcpu_weight AS anon_1_instance_types_vcpu_weight, anon_1.instance_types_disabled AS anon_1_instance_types_disabled, anon_1.instance_types_is_public AS anon_1_instance_types_is_public, instance_type_extra_specs_1.created_at AS instance_type_extra_specs_1_created_at, instance_type_extra_specs_1.updated_at AS instance_type_extra_specs_1_updated_at, instance_type_extra_specs_1.deleted_at AS instance_type_extra_specs_1_deleted_at, instance_type_extra_specs_1.deleted AS instance_type_extra_specs_1_deleted, instance_type_extra_specs_1.id AS instance_type_extra_specs_1_id, instance_type_extra_specs_1.`key` AS instance_type_extra_specs_1_key, instance_type_extra_specs_1.value AS instance_type_extra_specs_1_value, instance_type_extra_specs_1.instance_type_id AS instance_type_extra_specs_1_instance_type_id\nFROM (SELECT instance_types.created_at AS instance_types_created_at, instance_types.updated_at AS instance_types_updated_at, instance_types.deleted_at AS instance_types_deleted_at, instance_types.deleted AS instance_types_deleted, instance_types.id AS instance_types_id, instance_types.name AS instance_types_name, instance_types.memory_mb AS instance_types_memory_mb, instance_types.vcpus AS instance_types_vcpus, instance_types.root_gb AS instance_types_root_gb, instance_types.ephemeral_gb AS instance_types_ephemeral_gb, instance_types.flavorid AS instance_types_flavorid, instance_types.swap AS instance_types_swap, instance_types.rxtx_factor AS instance_types_rxtx_factor, instance_types.vcpu_weight AS instance_types_vcpu_weight, instance_types.disabled AS instance_types_disabled, instance_types.is_public AS instance_types_is_public\nFROM instance_types\nWHERE instance_types.deleted = 0 ORDER BY instance_types.flavorid ASC, instance_types.id ASC\nLIMIT 3000) AS anon_1 LEFT OUTER JOIN instance_type_extra_specs AS instance_type_extra_specs_1 ON instance_type_extra_specs_1.instance_type_id = anon_1.instance_types_id AND instance_type_extra_specs_1.deleted = 0 ORDER BY anon_1.instance_types_flavorid ASC, anon_1.instance_types_id ASC",
     "db_id": "csail_stata_nova",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_TYPE_EXTRA_SPECS",
+      "csail_stata_nova#sep#INSTANCE_TYPES"
+    ]
   },
   {
     "question": "Provide information (including security groups, and info caches) about the 3000 latest VMs under the project bfd50153a2e9476f93e33e30e922cd06 with void in the name.",
@@ -5076,13 +6157,25 @@
         "SECURITY_GROUP_INSTANCE_ASSOCIATION.SECURITY_GROUP_ID",
         "SECURITY_GROUPS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCES",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION"
     ]
   },
   {
     "question": "Provide information about the 25 latest public images.",
     "sql": "SELECT anon_1.images_created_at AS anon_1_images_created_at, anon_1.images_updated_at AS anon_1_images_updated_at, anon_1.images_deleted_at AS anon_1_images_deleted_at, anon_1.images_deleted AS anon_1_images_deleted, anon_1.images_id AS anon_1_images_id, anon_1.images_name AS anon_1_images_name, anon_1.images_disk_format AS anon_1_images_disk_format, anon_1.images_container_format AS anon_1_images_container_format, anon_1.images_size AS anon_1_images_size, anon_1.images_virtual_size AS anon_1_images_virtual_size, anon_1.images_status AS anon_1_images_status, anon_1.images_is_public AS anon_1_images_is_public, anon_1.images_checksum AS anon_1_images_checksum, anon_1.images_min_disk AS anon_1_images_min_disk, anon_1.images_min_ram AS anon_1_images_min_ram, anon_1.images_owner AS anon_1_images_owner, anon_1.images_protected AS anon_1_images_protected, image_tags_1.created_at AS image_tags_1_created_at, image_tags_1.updated_at AS image_tags_1_updated_at, image_tags_1.deleted_at AS image_tags_1_deleted_at, image_tags_1.deleted AS image_tags_1_deleted, image_tags_1.id AS image_tags_1_id, image_tags_1.image_id AS image_tags_1_image_id, image_tags_1.value AS image_tags_1_value, image_locations_1.created_at AS image_locations_1_created_at, image_locations_1.updated_at AS image_locations_1_updated_at, image_locations_1.deleted_at AS image_locations_1_deleted_at, image_locations_1.deleted AS image_locations_1_deleted, image_locations_1.id AS image_locations_1_id, image_locations_1.image_id AS image_locations_1_image_id, image_locations_1.value AS image_locations_1_value, image_locations_1.meta_data AS image_locations_1_meta_data, image_locations_1.status AS image_locations_1_status, image_properties_1.created_at AS image_properties_1_created_at, image_properties_1.updated_at AS image_properties_1_updated_at, image_properties_1.deleted_at AS image_properties_1_deleted_at, image_properties_1.deleted AS image_properties_1_deleted, image_properties_1.id AS image_properties_1_id, image_properties_1.image_id AS image_properties_1_image_id, image_properties_1.name AS image_properties_1_name, image_properties_1.value AS image_properties_1_value\nFROM (SELECT images.created_at AS images_created_at, images.updated_at AS images_updated_at, images.deleted_at AS images_deleted_at, images.deleted AS images_deleted, images.id AS images_id, images.name AS images_name, images.disk_format AS images_disk_format, images.container_format AS images_container_format, images.size AS images_size, images.virtual_size AS images_virtual_size, images.status AS images_status, images.is_public AS images_is_public, images.checksum AS images_checksum, images.min_disk AS images_min_disk, images.min_ram AS images_min_ram, images.owner AS images_owner, images.protected AS images_protected\nFROM images\nWHERE images.deleted = false AND images.status IN ('active', 'saving', 'queued', 'pending_delete', 'deleted', 'deactivated') AND images.is_public = true ORDER BY images.created_at DESC, images.id DESC\nLIMIT 25) AS anon_1 LEFT OUTER JOIN image_tags AS image_tags_1 ON anon_1.images_id = image_tags_1.image_id LEFT OUTER JOIN image_locations AS image_locations_1 ON anon_1.images_id = image_locations_1.image_id LEFT OUTER JOIN image_properties AS image_properties_1 ON anon_1.images_id = image_properties_1.image_id ORDER BY anon_1.images_created_at DESC, anon_1.images_id DESC",
     "db_id": "csail_stata_glance",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "csail_stata_glance#sep#IMAGE_PROPERTIES",
+      "csail_stata_glance#sep#IMAGE_TAGS",
+      "csail_stata_glance#sep#IMAGES",
+      "csail_stata_glance#sep#IMAGE_LOCATIONS"
+    ]
   },
   {
     "question": "Provide information about the 200 latest images associated with the owner bfd50153a2e9476f93e33e30e922cd06.",
@@ -5093,6 +6186,13 @@
         "IMAGES.ID",
         "IMAGE_MEMBERS.IMAGE_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_glance#sep#IMAGE_TAGS",
+      "csail_stata_glance#sep#IMAGE_MEMBERS",
+      "csail_stata_glance#sep#IMAGE_PROPERTIES",
+      "csail_stata_glance#sep#IMAGES",
+      "csail_stata_glance#sep#IMAGE_LOCATIONS"
     ]
   },
   {
@@ -5104,6 +6204,15 @@
         "SECURITY_GROUP_RULES.PARENT_GROUP_ID",
         "SECURITY_GROUPS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_SYSTEM_METADATA",
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#INSTANCE_METADATA",
+      "csail_stata_nova#sep#SECURITY_GROUP_RULES",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -5127,13 +6236,27 @@
         "INVENTORIES.RESOURCE_PROVIDER_ID",
         "RESOURCE_PROVIDERS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#RESOURCE_PROVIDERS",
+      "csail_stata_nova#sep#ALLOCATIONS",
+      "csail_stata_nova#sep#INVENTORIES",
+      "csail_stata_nova#sep#COMPUTE_NODES"
     ]
   },
   {
     "question": "Provide information about the 1000 latest volumes under the project bfd50153a2e9476f93e33e30e922cd06.",
     "sql": "SELECT anon_1.volumes_created_at AS anon_1_volumes_created_at, anon_1.volumes_updated_at AS anon_1_volumes_updated_at, anon_1.volumes_deleted_at AS anon_1_volumes_deleted_at, anon_1.volumes_deleted AS anon_1_volumes_deleted, anon_1.volumes_id AS anon_1_volumes_id, anon_1.volumes__name_id AS anon_1_volumes__name_id, anon_1.volumes_ec2_id AS anon_1_volumes_ec2_id, anon_1.volumes_user_id AS anon_1_volumes_user_id, anon_1.volumes_project_id AS anon_1_volumes_project_id, anon_1.volumes_snapshot_id AS anon_1_volumes_snapshot_id, anon_1.volumes_host AS anon_1_volumes_host, anon_1.volumes_size AS anon_1_volumes_size, anon_1.volumes_availability_zone AS anon_1_volumes_availability_zone, anon_1.volumes_status AS anon_1_volumes_status, anon_1.volumes_attach_status AS anon_1_volumes_attach_status, anon_1.volumes_migration_status AS anon_1_volumes_migration_status, anon_1.volumes_scheduled_at AS anon_1_volumes_scheduled_at, anon_1.volumes_launched_at AS anon_1_volumes_launched_at, anon_1.volumes_terminated_at AS anon_1_volumes_terminated_at, anon_1.volumes_display_name AS anon_1_volumes_display_name, anon_1.volumes_display_description AS anon_1_volumes_display_description, anon_1.volumes_provider_location AS anon_1_volumes_provider_location, anon_1.volumes_provider_auth AS anon_1_volumes_provider_auth, anon_1.volumes_provider_geometry AS anon_1_volumes_provider_geometry, anon_1.volumes_provider_id AS anon_1_volumes_provider_id, anon_1.volumes_volume_type_id AS anon_1_volumes_volume_type_id, anon_1.volumes_source_volid AS anon_1_volumes_source_volid, anon_1.volumes_encryption_key_id AS anon_1_volumes_encryption_key_id, anon_1.volumes_consistencygroup_id AS anon_1_volumes_consistencygroup_id, anon_1.volumes_bootable AS anon_1_volumes_bootable, anon_1.volumes_multiattach AS anon_1_volumes_multiattach, anon_1.volumes_replication_status AS anon_1_volumes_replication_status, anon_1.volumes_replication_extended_status AS anon_1_volumes_replication_extended_status, anon_1.volumes_replication_driver_data AS anon_1_volumes_replication_driver_data, anon_1.volumes_previous_status AS anon_1_volumes_previous_status, consistencygroups_1.created_at AS consistencygroups_1_created_at, consistencygroups_1.updated_at AS consistencygroups_1_updated_at, consistencygroups_1.deleted_at AS consistencygroups_1_deleted_at, consistencygroups_1.deleted AS consistencygroups_1_deleted, consistencygroups_1.id AS consistencygroups_1_id, consistencygroups_1.user_id AS consistencygroups_1_user_id, consistencygroups_1.project_id AS consistencygroups_1_project_id, consistencygroups_1.host AS consistencygroups_1_host, consistencygroups_1.availability_zone AS consistencygroups_1_availability_zone, consistencygroups_1.name AS consistencygroups_1_name, consistencygroups_1.description AS consistencygroups_1_description, consistencygroups_1.volume_type_id AS consistencygroups_1_volume_type_id, consistencygroups_1.status AS consistencygroups_1_status, consistencygroups_1.cgsnapshot_id AS consistencygroups_1_cgsnapshot_id, consistencygroups_1.source_cgid AS consistencygroups_1_source_cgid, volume_metadata_1.created_at AS volume_metadata_1_created_at, volume_metadata_1.updated_at AS volume_metadata_1_updated_at, volume_metadata_1.deleted_at AS volume_metadata_1_deleted_at, volume_metadata_1.deleted AS volume_metadata_1_deleted, volume_metadata_1.id AS volume_metadata_1_id, volume_metadata_1.`key` AS volume_metadata_1_key, volume_metadata_1.value AS volume_metadata_1_value, volume_metadata_1.volume_id AS volume_metadata_1_volume_id, volume_admin_metadata_1.created_at AS volume_admin_metadata_1_created_at, volume_admin_metadata_1.updated_at AS volume_admin_metadata_1_updated_at, volume_admin_metadata_1.deleted_at AS volume_admin_metadata_1_deleted_at, volume_admin_metadata_1.deleted AS volume_admin_metadata_1_deleted, volume_admin_metadata_1.id AS volume_admin_metadata_1_id, volume_admin_metadata_1.`key` AS volume_admin_metadata_1_key, volume_admin_metadata_1.value AS volume_admin_metadata_1_value, volume_admin_metadata_1.volume_id AS volume_admin_metadata_1_volume_id, volume_attachment_1.created_at AS volume_attachment_1_created_at, volume_attachment_1.updated_at AS volume_attachment_1_updated_at, volume_attachment_1.deleted_at AS volume_attachment_1_deleted_at, volume_attachment_1.deleted AS volume_attachment_1_deleted, volume_attachment_1.id AS volume_attachment_1_id, volume_attachment_1.volume_id AS volume_attachment_1_volume_id, volume_attachment_1.instance_uuid AS volume_attachment_1_instance_uuid, volume_attachment_1.attached_host AS volume_attachment_1_attached_host, volume_attachment_1.mountpoint AS volume_attachment_1_mountpoint, volume_attachment_1.attach_time AS volume_attachment_1_attach_time, volume_attachment_1.detach_time AS volume_attachment_1_detach_time, volume_attachment_1.attach_status AS volume_attachment_1_attach_status, volume_attachment_1.attach_mode AS volume_attachment_1_attach_mode, volume_types_1.created_at AS volume_types_1_created_at, volume_types_1.updated_at AS volume_types_1_updated_at, volume_types_1.deleted_at AS volume_types_1_deleted_at, volume_types_1.deleted AS volume_types_1_deleted, volume_types_1.id AS volume_types_1_id, volume_types_1.name AS volume_types_1_name, volume_types_1.description AS volume_types_1_description, volume_types_1.qos_specs_id AS volume_types_1_qos_specs_id, volume_types_1.is_public AS volume_types_1_is_public\nFROM (SELECT volumes.created_at AS volumes_created_at, volumes.updated_at AS volumes_updated_at, volumes.deleted_at AS volumes_deleted_at, volumes.deleted AS volumes_deleted, volumes.id AS volumes_id, volumes._name_id AS volumes__name_id, volumes.ec2_id AS volumes_ec2_id, volumes.user_id AS volumes_user_id, volumes.project_id AS volumes_project_id, volumes.snapshot_id AS volumes_snapshot_id, volumes.host AS volumes_host, volumes.size AS volumes_size, volumes.availability_zone AS volumes_availability_zone, volumes.status AS volumes_status, volumes.attach_status AS volumes_attach_status, volumes.migration_status AS volumes_migration_status, volumes.scheduled_at AS volumes_scheduled_at, volumes.launched_at AS volumes_launched_at, volumes.terminated_at AS volumes_terminated_at, volumes.display_name AS volumes_display_name, volumes.display_description AS volumes_display_description, volumes.provider_location AS volumes_provider_location, volumes.provider_auth AS volumes_provider_auth, volumes.provider_geometry AS volumes_provider_geometry, volumes.provider_id AS volumes_provider_id, volumes.volume_type_id AS volumes_volume_type_id, volumes.source_volid AS volumes_source_volid, volumes.encryption_key_id AS volumes_encryption_key_id, volumes.consistencygroup_id AS volumes_consistencygroup_id, volumes.bootable AS volumes_bootable, volumes.multiattach AS volumes_multiattach, volumes.replication_status AS volumes_replication_status, volumes.replication_extended_status AS volumes_replication_extended_status, volumes.replication_driver_data AS volumes_replication_driver_data, volumes.previous_status AS volumes_previous_status\nFROM volumes\nWHERE volumes.deleted = false AND (volumes.migration_status IS NULL OR (volumes.migration_status NOT LIKE 'target:%')) AND volumes.project_id = 'bfd50153a2e9476f93e33e30e922cd06' ORDER BY volumes.created_at DESC, volumes.id DESC\nLIMIT 1000) AS anon_1 LEFT OUTER JOIN consistencygroups AS consistencygroups_1 ON anon_1.volumes_consistencygroup_id = consistencygroups_1.id LEFT OUTER JOIN volume_metadata AS volume_metadata_1 ON volume_metadata_1.volume_id = anon_1.volumes_id AND volume_metadata_1.deleted = false LEFT OUTER JOIN volume_admin_metadata AS volume_admin_metadata_1 ON volume_admin_metadata_1.volume_id = anon_1.volumes_id AND volume_admin_metadata_1.deleted = false LEFT OUTER JOIN volume_attachment AS volume_attachment_1 ON volume_attachment_1.volume_id = anon_1.volumes_id AND volume_attachment_1.deleted = false LEFT OUTER JOIN volume_types AS volume_types_1 ON anon_1.volumes_volume_type_id = volume_types_1.id AND volume_types_1.deleted = false ORDER BY anon_1.volumes_created_at DESC, anon_1.volumes_id DESC",
     "db_id": "csail_stata_cinder",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "csail_stata_cinder#sep#VOLUME_METADATA",
+      "csail_stata_cinder#sep#VOLUME_TYPES",
+      "csail_stata_cinder#sep#VOLUME_ADMIN_METADATA",
+      "csail_stata_cinder#sep#VOLUMES",
+      "csail_stata_cinder#sep#VOLUME_ATTACHMENT",
+      "csail_stata_cinder#sep#CONSISTENCYGROUPS"
+    ]
   },
   {
     "question": "Provide information (including security groups, info caches, extra data, and metadata) about the 3000 latest instances under the project bfd50153a2e9476f93e33e30e922cd06 with light in the name.",
@@ -5144,6 +6267,14 @@
         "SECURITY_GROUP_INSTANCE_ASSOCIATION.SECURITY_GROUP_ID",
         "SECURITY_GROUPS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_nova#sep#INSTANCE_INFO_CACHES",
+      "csail_stata_nova#sep#INSTANCE_EXTRA",
+      "csail_stata_nova#sep#SECURITY_GROUP_INSTANCE_ASSOCIATION",
+      "csail_stata_nova#sep#INSTANCE_METADATA",
+      "csail_stata_nova#sep#SECURITY_GROUPS",
+      "csail_stata_nova#sep#INSTANCES"
     ]
   },
   {
@@ -5179,13 +6310,33 @@
         "NETWORKS.ID",
         "NETWORKDNSDOMAINS.NETWORK_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#NETWORKDHCPAGENTBINDINGS",
+      "csail_stata_neutron#sep#AGENTS",
+      "csail_stata_neutron#sep#NETWORKS",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#QOS_NETWORK_POLICY_BINDINGS",
+      "csail_stata_neutron#sep#NETWORKDNSDOMAINS",
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#NETWORKSECURITYBINDINGS"
     ]
   },
   {
     "question": "Provide information about the 1000 latest volumes under the project 8083447923734c679b261219b815d3bc.",
     "sql": "SELECT anon_1.volumes_created_at AS anon_1_volumes_created_at, anon_1.volumes_updated_at AS anon_1_volumes_updated_at, anon_1.volumes_deleted_at AS anon_1_volumes_deleted_at, anon_1.volumes_deleted AS anon_1_volumes_deleted, anon_1.volumes_id AS anon_1_volumes_id, anon_1.volumes__name_id AS anon_1_volumes__name_id, anon_1.volumes_ec2_id AS anon_1_volumes_ec2_id, anon_1.volumes_user_id AS anon_1_volumes_user_id, anon_1.volumes_project_id AS anon_1_volumes_project_id, anon_1.volumes_snapshot_id AS anon_1_volumes_snapshot_id, anon_1.volumes_host AS anon_1_volumes_host, anon_1.volumes_size AS anon_1_volumes_size, anon_1.volumes_availability_zone AS anon_1_volumes_availability_zone, anon_1.volumes_status AS anon_1_volumes_status, anon_1.volumes_attach_status AS anon_1_volumes_attach_status, anon_1.volumes_migration_status AS anon_1_volumes_migration_status, anon_1.volumes_scheduled_at AS anon_1_volumes_scheduled_at, anon_1.volumes_launched_at AS anon_1_volumes_launched_at, anon_1.volumes_terminated_at AS anon_1_volumes_terminated_at, anon_1.volumes_display_name AS anon_1_volumes_display_name, anon_1.volumes_display_description AS anon_1_volumes_display_description, anon_1.volumes_provider_location AS anon_1_volumes_provider_location, anon_1.volumes_provider_auth AS anon_1_volumes_provider_auth, anon_1.volumes_provider_geometry AS anon_1_volumes_provider_geometry, anon_1.volumes_provider_id AS anon_1_volumes_provider_id, anon_1.volumes_volume_type_id AS anon_1_volumes_volume_type_id, anon_1.volumes_source_volid AS anon_1_volumes_source_volid, anon_1.volumes_encryption_key_id AS anon_1_volumes_encryption_key_id, anon_1.volumes_consistencygroup_id AS anon_1_volumes_consistencygroup_id, anon_1.volumes_bootable AS anon_1_volumes_bootable, anon_1.volumes_multiattach AS anon_1_volumes_multiattach, anon_1.volumes_replication_status AS anon_1_volumes_replication_status, anon_1.volumes_replication_extended_status AS anon_1_volumes_replication_extended_status, anon_1.volumes_replication_driver_data AS anon_1_volumes_replication_driver_data, anon_1.volumes_previous_status AS anon_1_volumes_previous_status, consistencygroups_1.created_at AS consistencygroups_1_created_at, consistencygroups_1.updated_at AS consistencygroups_1_updated_at, consistencygroups_1.deleted_at AS consistencygroups_1_deleted_at, consistencygroups_1.deleted AS consistencygroups_1_deleted, consistencygroups_1.id AS consistencygroups_1_id, consistencygroups_1.user_id AS consistencygroups_1_user_id, consistencygroups_1.project_id AS consistencygroups_1_project_id, consistencygroups_1.host AS consistencygroups_1_host, consistencygroups_1.availability_zone AS consistencygroups_1_availability_zone, consistencygroups_1.name AS consistencygroups_1_name, consistencygroups_1.description AS consistencygroups_1_description, consistencygroups_1.volume_type_id AS consistencygroups_1_volume_type_id, consistencygroups_1.status AS consistencygroups_1_status, consistencygroups_1.cgsnapshot_id AS consistencygroups_1_cgsnapshot_id, consistencygroups_1.source_cgid AS consistencygroups_1_source_cgid, volume_metadata_1.created_at AS volume_metadata_1_created_at, volume_metadata_1.updated_at AS volume_metadata_1_updated_at, volume_metadata_1.deleted_at AS volume_metadata_1_deleted_at, volume_metadata_1.deleted AS volume_metadata_1_deleted, volume_metadata_1.id AS volume_metadata_1_id, volume_metadata_1.`key` AS volume_metadata_1_key, volume_metadata_1.value AS volume_metadata_1_value, volume_metadata_1.volume_id AS volume_metadata_1_volume_id, volume_attachment_1.created_at AS volume_attachment_1_created_at, volume_attachment_1.updated_at AS volume_attachment_1_updated_at, volume_attachment_1.deleted_at AS volume_attachment_1_deleted_at, volume_attachment_1.deleted AS volume_attachment_1_deleted, volume_attachment_1.id AS volume_attachment_1_id, volume_attachment_1.volume_id AS volume_attachment_1_volume_id, volume_attachment_1.instance_uuid AS volume_attachment_1_instance_uuid, volume_attachment_1.attached_host AS volume_attachment_1_attached_host, volume_attachment_1.mountpoint AS volume_attachment_1_mountpoint, volume_attachment_1.attach_time AS volume_attachment_1_attach_time, volume_attachment_1.detach_time AS volume_attachment_1_detach_time, volume_attachment_1.attach_status AS volume_attachment_1_attach_status, volume_attachment_1.attach_mode AS volume_attachment_1_attach_mode, volume_admin_metadata_1.created_at AS volume_admin_metadata_1_created_at, volume_admin_metadata_1.updated_at AS volume_admin_metadata_1_updated_at, volume_admin_metadata_1.deleted_at AS volume_admin_metadata_1_deleted_at, volume_admin_metadata_1.deleted AS volume_admin_metadata_1_deleted, volume_admin_metadata_1.id AS volume_admin_metadata_1_id, volume_admin_metadata_1.`key` AS volume_admin_metadata_1_key, volume_admin_metadata_1.value AS volume_admin_metadata_1_value, volume_admin_metadata_1.volume_id AS volume_admin_metadata_1_volume_id, volume_types_1.created_at AS volume_types_1_created_at, volume_types_1.updated_at AS volume_types_1_updated_at, volume_types_1.deleted_at AS volume_types_1_deleted_at, volume_types_1.deleted AS volume_types_1_deleted, volume_types_1.id AS volume_types_1_id, volume_types_1.name AS volume_types_1_name, volume_types_1.description AS volume_types_1_description, volume_types_1.qos_specs_id AS volume_types_1_qos_specs_id, volume_types_1.is_public AS volume_types_1_is_public FROM (SELECT volumes.created_at AS volumes_created_at, volumes.updated_at AS volumes_updated_at, volumes.deleted_at AS volumes_deleted_at, volumes.deleted AS volumes_deleted, volumes.id AS volumes_id, volumes._name_id AS volumes__name_id, volumes.ec2_id AS volumes_ec2_id, volumes.user_id AS volumes_user_id, volumes.project_id AS volumes_project_id, volumes.snapshot_id AS volumes_snapshot_id, volumes.host AS volumes_host, volumes.size AS volumes_size, volumes.availability_zone AS volumes_availability_zone, volumes.status AS volumes_status, volumes.attach_status AS volumes_attach_status, volumes.migration_status AS volumes_migration_status, volumes.scheduled_at AS volumes_scheduled_at, volumes.launched_at AS volumes_launched_at, volumes.terminated_at AS volumes_terminated_at, volumes.display_name AS volumes_display_name, volumes.display_description AS volumes_display_description, volumes.provider_location AS volumes_provider_location, volumes.provider_auth AS volumes_provider_auth, volumes.provider_geometry AS volumes_provider_geometry, volumes.provider_id AS volumes_provider_id, volumes.volume_type_id AS volumes_volume_type_id, volumes.source_volid AS volumes_source_volid, volumes.encryption_key_id AS volumes_encryption_key_id, volumes.consistencygroup_id AS volumes_consistencygroup_id, volumes.bootable AS volumes_bootable, volumes.multiattach AS volumes_multiattach, volumes.replication_status AS volumes_replication_status, volumes.replication_extended_status AS volumes_replication_extended_status, volumes.replication_driver_data AS volumes_replication_driver_data, volumes.previous_status AS volumes_previous_status FROM volumes WHERE volumes.deleted = false AND (volumes.migration_status IS NULL OR (volumes.migration_status NOT LIKE 'target:%')) AND volumes.project_id = '8083447923734c679b261219b815d3bc' ORDER BY volumes.created_at DESC, volumes.id DESC LIMIT 1000) AS anon_1 LEFT OUTER JOIN consistencygroups AS consistencygroups_1 ON anon_1.volumes_consistencygroup_id = consistencygroups_1.id LEFT OUTER JOIN volume_metadata AS volume_metadata_1 ON volume_metadata_1.volume_id = anon_1.volumes_id AND volume_metadata_1.deleted = false LEFT OUTER JOIN volume_attachment AS volume_attachment_1 ON volume_attachment_1.volume_id = anon_1.volumes_id AND volume_attachment_1.deleted = false LEFT OUTER JOIN volume_admin_metadata AS volume_admin_metadata_1 ON volume_admin_metadata_1.volume_id = anon_1.volumes_id AND volume_admin_metadata_1.deleted = false LEFT OUTER JOIN volume_types AS volume_types_1 ON anon_1.volumes_volume_type_id = volume_types_1.id AND volume_types_1.deleted = false ORDER BY anon_1.volumes_created_at DESC, anon_1.volumes_id DESC",
     "db_id": "csail_stata_cinder",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "csail_stata_cinder#sep#VOLUME_METADATA",
+      "csail_stata_cinder#sep#VOLUME_TYPES",
+      "csail_stata_cinder#sep#VOLUME_ADMIN_METADATA",
+      "csail_stata_cinder#sep#VOLUMES",
+      "csail_stata_cinder#sep#VOLUME_ATTACHMENT",
+      "csail_stata_cinder#sep#CONSISTENCYGROUPS"
+    ]
   },
   {
     "question": "Provide information about network that include subnet 388ee748-7b3d-4049-99b4-7e582937bbd4.",
@@ -5216,6 +6367,18 @@
         "NETWORKDNSDOMAINS.NETWORK_ID",
         "NETWORKS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKDHCPAGENTBINDINGS",
+      "csail_stata_neutron#sep#SUBNETS",
+      "csail_stata_neutron#sep#AGENTS",
+      "csail_stata_neutron#sep#NETWORKS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#QOS_NETWORK_POLICY_BINDINGS",
+      "csail_stata_neutron#sep#NETWORKDNSDOMAINS",
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#NETWORKSECURITYBINDINGS"
     ]
   },
   {
@@ -5227,6 +6390,11 @@
         "NETWORKS.ID",
         "NETWORKRBACS.OBJECT_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKS",
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#SUBNETS"
     ]
   },
   {
@@ -5274,6 +6442,18 @@
         "TAGS.STANDARD_ATTR_ID",
         "STANDARDATTRIBUTES.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#IPALLOCATIONPOOLS",
+      "csail_stata_neutron#sep#SUBNETPOOLS",
+      "csail_stata_neutron#sep#SUBNETPOOLPREFIXES",
+      "csail_stata_neutron#sep#SUBNETS",
+      "csail_stata_neutron#sep#DNSNAMESERVERS",
+      "csail_stata_neutron#sep#NETWORKS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#SUBNETROUTES",
+      "csail_stata_neutron#sep#TAGS"
     ]
   },
   {
@@ -5289,6 +6469,12 @@
         "SUBNETS.NETWORK_ID",
         "NETWORKRBACS.OBJECT_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#SUBNETS",
+      "csail_stata_neutron#sep#NETWORKS"
     ]
   },
   {
@@ -5300,6 +6486,11 @@
         "NETWORKS.ID",
         "NETWORKRBACS.OBJECT_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKS",
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#SUBNETS"
     ]
   },
   {
@@ -5311,13 +6502,22 @@
         "EXTERNALNETWORKS.NETWORK_ID",
         "NETWORKS.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#NETWORKS"
     ]
   },
   {
     "question": "Provide information about federated user 945fa0ad0137481cac5ef83a0b94b1b9.",
     "sql": "SELECT federated_user.id AS federated_user_id, federated_user.user_id AS federated_user_user_id, federated_user.idp_id AS federated_user_idp_id, federated_user.protocol_id AS federated_user_protocol_id, federated_user.unique_id AS federated_user_unique_id, federated_user.display_name AS federated_user_display_name, anon_1.user_id AS anon_1_user_id FROM (SELECT user.id AS user_id FROM user WHERE user.id = '945fa0ad0137481cac5ef83a0b94b1b9') AS anon_1 INNER JOIN federated_user ON anon_1.user_id = federated_user.user_id ORDER BY anon_1.user_id",
     "db_id": "keystone",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "keystone#sep#FEDERATED_USER",
+      "keystone#sep#USER"
+    ]
   },
   {
     "question": "Provide id information about the local user with name prime_helix.306sonic.",
@@ -5328,6 +6528,10 @@
         "LOCAL_USER.USER_ID",
         "USER.ID"
       ]
+    ],
+    "gold_tables": [
+      "keystone#sep#USER",
+      "keystone#sep#LOCAL_USER"
     ]
   },
   {
@@ -5375,13 +6579,29 @@
         "TAGS.STANDARD_ATTR_ID",
         "STANDARDATTRIBUTES.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#IPALLOCATIONPOOLS",
+      "csail_stata_neutron#sep#SUBNETPOOLS",
+      "csail_stata_neutron#sep#SUBNETPOOLPREFIXES",
+      "csail_stata_neutron#sep#SUBNETS",
+      "csail_stata_neutron#sep#DNSNAMESERVERS",
+      "csail_stata_neutron#sep#NETWORKS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#SUBNETROUTES",
+      "csail_stata_neutron#sep#TAGS"
     ]
   },
   {
     "question": "Provide information about subnet access control for subnet 76123b94-2ae9-40c4-a4c6-03ee98d081d9.",
     "sql": "SELECT networkrbacs.tenant_id AS networkrbacs_tenant_id, networkrbacs.id AS networkrbacs_id, networkrbacs.target_tenant AS networkrbacs_target_tenant, networkrbacs.action AS networkrbacs_action, networkrbacs.object_id AS networkrbacs_object_id, anon_1.subnets_network_id AS anon_1_subnets_network_id FROM (SELECT DISTINCT subnets.network_id AS subnets_network_id FROM subnets WHERE subnets.id IN ('76123b94-2ae9-40c4-a4c6-03ee98d081d9', '76123b94-2ae9-40c4-a4c6-03ee98d081d9', '76123b94-2ae9-40c4-a4c6-03ee98d081d9')) AS anon_1 INNER JOIN networkrbacs ON anon_1.subnets_network_id = networkrbacs.object_id ORDER BY anon_1.subnets_network_id",
     "db_id": "csail_stata_neutron",
-    "join_keys": []
+    "join_keys": [],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKRBACS",
+      "csail_stata_neutron#sep#SUBNETS"
+    ]
   },
   {
     "question": "Provide password information about the local user with name prime_helix.306sonic.",
@@ -5396,6 +6616,11 @@
         "LOCAL_USER.ID",
         "PASSWORD.LOCAL_USER_ID"
       ]
+    ],
+    "gold_tables": [
+      "keystone#sep#USER",
+      "keystone#sep#PASSWORD",
+      "keystone#sep#LOCAL_USER"
     ]
   },
   {
@@ -5443,6 +6668,18 @@
         "TAGS.STANDARD_ATTR_ID",
         "STANDARDATTRIBUTES.ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#IPALLOCATIONPOOLS",
+      "csail_stata_neutron#sep#SUBNETPOOLS",
+      "csail_stata_neutron#sep#SUBNETPOOLPREFIXES",
+      "csail_stata_neutron#sep#SUBNETS",
+      "csail_stata_neutron#sep#DNSNAMESERVERS",
+      "csail_stata_neutron#sep#NETWORKS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#SUBNETROUTES",
+      "csail_stata_neutron#sep#TAGS"
     ]
   },
   {
@@ -5474,6 +6711,18 @@
         "NETWORKS.ID",
         "NETWORKDNSDOMAINS.NETWORK_ID"
       ]
+    ],
+    "gold_tables": [
+      "csail_stata_neutron#sep#NETWORKDHCPAGENTBINDINGS",
+      "csail_stata_neutron#sep#SUBNETS",
+      "csail_stata_neutron#sep#AGENTS",
+      "csail_stata_neutron#sep#NETWORKS",
+      "csail_stata_neutron#sep#STANDARDATTRIBUTES",
+      "csail_stata_neutron#sep#EXTERNALNETWORKS",
+      "csail_stata_neutron#sep#QOS_NETWORK_POLICY_BINDINGS",
+      "csail_stata_neutron#sep#NETWORKDNSDOMAINS",
+      "csail_stata_neutron#sep#TAGS",
+      "csail_stata_neutron#sep#NETWORKSECURITYBINDINGS"
     ]
   }
 ]

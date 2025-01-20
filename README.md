@@ -15,7 +15,10 @@ If you find our data or the paper helpful, please cite the paper
 ```
 
 ### Datasets
-- `dev.json` includes the natural language question, gold SQL statement, join keys used in the gold SQL statement, as well as column mappings from topics mentioned in the user question to columns used in the gold SQL statement.
+- `dev.json` includes
+  - natural language question, gold SQL statement
+  - tables and join keys used in the gold SQL statement
+  - column mappings from topics mentioned in the user question to columns used in the gold SQL statement.
 - `dev_tables.json` includes the table schema, and key-foreign-key relationships.
   - join keys for tables in database `dw` can be found in `dw_join_keys.json`.
 - [Google drive folder](https://drive.google.com/drive/folders/19bRoRxgWQLcJN3LTxwgev0xTahunjPIR?usp=drive_link) includes the anonymized database content.
