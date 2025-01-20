@@ -1,6 +1,7 @@
 # 🦫 BEAVER: An Enterprise Benchmark for Text-to-SQL
 
 ### Updates
+- 01/19/2025: 191 queries and 463 tables across 6 databases are all available.
 - 10/28/2024: A subset of 49 queries and 99 tables is available.
 
 If you find our data or the paper helpful, please cite the paper
@@ -14,12 +15,15 @@ If you find our data or the paper helpful, please cite the paper
 ```
 
 ### Datasets
-- `queries.json` includes the natural language question and the gold SQL statement.
-- `dev_tables.json` includes the table schema.
+- `dev.json` includes the natural language question, gold SQL statement, join keys used in the gold SQL statement, as well as column mappings from topics mentioned in the user question to columns used in the gold SQL statement.
+- `dev_tables.json` includes the table schema, and key-foreign-key relationships.
+  - join keys for tables in database `dw` can be found in `dw_join_keys.json`.
 - [Google drive folder](https://drive.google.com/drive/folders/19bRoRxgWQLcJN3LTxwgev0xTahunjPIR?usp=drive_link) includes the anonymized database content.
+  - `nw_sql.zip` includes the MySQL dump files for each non-`dw` database.
 
 ### Setup
-- We use Oracle Database for executing the queries, so the most reliable approach is to download the free oracle database on your machine and import the data. But we are working on ways to make this process easier.
+- We use Oracle Database for executing the queries in database `dw`, so the most reliable approach is to download the free oracle database on your machine and import the data. But we are working on ways to make this process easier.
+- For queries involving non-`dw` databases, we use MySQL database. We provided the MySQL dump files in the above Google drive folder.
 
 ### Contact
 Your support in improving this dataset is greatly appreciated! If you have any questions or feedback, please send an email to peterbc@mit.edu.
