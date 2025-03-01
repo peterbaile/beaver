@@ -11464,10 +11464,6 @@
     "db_id": "dw",
     "table_name_original": "FAC_BUILDING",
     "column_names_original": [
-      "DATE_ACQUIRED",
-      "DATE_OCCUPIED",
-      "WAREHOUSE_LOAD_DATE",
-      "NUM_OF_ROOMS",
       "FAC_BUILDING_KEY",
       "BUILDING_NUMBER",
       "PARENT_BUILDING_NUMBER",
@@ -11495,7 +11491,11 @@
       "BUILDING_SORT",
       "BUILDING_NAMED_FOR",
       "BUILDING_NAME",
-      "DATE_BUILT"
+      "DATE_BUILT",
+      "DATE_ACQUIRED",
+      "DATE_OCCUPIED",
+      "WAREHOUSE_LOAD_DATE",
+      "NUM_OF_ROOMS"
     ],
     "column_types": [
       "VARCHAR2",
@@ -11712,7 +11712,6 @@
     "db_id": "dw",
     "table_name_original": "FAC_BUILDING_ADDRESS",
     "column_names_original": [
-      "WAREHOUSE_LOAD_DATE",
       "BUILDING_ADDRESS_KEY",
       "BUILDING_KEY",
       "ADDRESS_PURPOSE",
@@ -11726,7 +11725,8 @@
       "POST_DIRECTIONAL",
       "CITY",
       "STATE",
-      "POSTAL_CODE"
+      "POSTAL_CODE",
+      "WAREHOUSE_LOAD_DATE"
     ],
     "column_types": [
       "DATE",
@@ -11766,6 +11766,8 @@
     "db_id": "dw",
     "table_name_original": "PROFIT_CENTER_GROUP",
     "column_names_original": [
+      "PROFIT_CENTER_GROUP_CODE",
+      "PROFIT_CENTER_GROUP_NAME",
       "PROFIT_CENTER_KEY",
       "PROFIT_CENTER_ID",
       "PROFIT_CENTER_NAME",
@@ -11787,9 +11789,7 @@
       "PC_LEVEL8_CATEGORY",
       "DLC_KEY",
       "DLC_NAME",
-      "WAREHOUSE_LOAD_DATE",
-      "PROFIT_CENTER_GROUP_CODE",
-      "PROFIT_CENTER_GROUP_NAME"
+      "WAREHOUSE_LOAD_DATE"
     ],
     "column_types": [
       "VARCHAR2",
@@ -12200,7 +12200,6 @@
     "db_id": "dw",
     "table_name_original": "FAC_FLOOR",
     "column_names_original": [
-      "WAREHOUSE_LOAD_DATE",
       "BUILDING_KEY",
       "FLOOR",
       "FLOOR_KEY",
@@ -12210,7 +12209,8 @@
       "FLOOR_SORT_SEQUENCE",
       "LEVEL_ID",
       "BUILDING_WINGS_ID",
-      "ACCESS_LEVEL"
+      "ACCESS_LEVEL",
+      "WAREHOUSE_LOAD_DATE"
     ],
     "column_types": [
       "DATE",
@@ -12808,14 +12808,14 @@
     "db_id": "dw",
     "table_name_original": "ZIP_USA",
     "column_names_original": [
-      "STATE_NAME",
-      "WAREHOUSE_LOAD_DATE",
       "ZIP_CODE",
       "ZIP_TYPE",
       "CITY_NAME",
       "CITY_TYPE",
       "COUNTY_NAME",
-      "STATE_ABBR"
+      "STATE_ABBR",
+      "STATE_NAME",
+      "WAREHOUSE_LOAD_DATE"
     ],
     "column_types": [
       "VARCHAR2",
@@ -13092,7 +13092,6 @@
     "db_id": "dw",
     "table_name_original": "FAC_ROOMS",
     "column_names_original": [
-      "WAREHOUSE_LOAD_DATE",
       "FAC_ROOM_KEY",
       "BUILDING_KEY",
       "FLOOR",
@@ -13116,7 +13115,8 @@
       "LATITUDE_WGS",
       "LONGITUDE_WGS",
       "NORTHING_SPCS",
-      "EASTING_SPCS"
+      "EASTING_SPCS",
+      "WAREHOUSE_LOAD_DATE"
     ],
     "column_types": [
       "DATE",
@@ -13398,8 +13398,6 @@
     "db_id": "dw",
     "table_name_original": "FCLT_BUILDING_ADDRESS",
     "column_names_original": [
-      "POSTAL_CODE",
-      "WAREHOUSE_LOAD_DATE",
       "FCLT_BUILDING_ADDRESS_KEY",
       "FCLT_BUILDING_KEY",
       "BUILDING_NUMBER",
@@ -13413,7 +13411,9 @@
       "STREET_SUFFIX",
       "POST_DIRECTIONAL",
       "CITY",
-      "STATE"
+      "STATE",
+      "POSTAL_CODE",
+      "WAREHOUSE_LOAD_DATE"
     ],
     "column_types": [
       "VARCHAR2",
@@ -14194,22 +14194,6 @@
     "db_id": "dw",
     "table_name_original": "CIS_COURSE_CATALOG",
     "column_names_original": [
-      "IS_OFFERED_FALL_TERM",
-      "IS_OFFERED_IAP",
-      "IS_OFFERED_SPRING_TERM",
-      "IS_OFFERED_SUMMER_TERM",
-      "FALL_INSTRUCTORS",
-      "SPRING_INSTRUCTORS",
-      "STATUS_CHANGE",
-      "LAST_ACTIVITY_DATE",
-      "WAREHOUSE_LOAD_DATE",
-      "MASTER_SUBJECT_ID",
-      "HASS_ATTRIBUTE",
-      "HASS_ATTRIBUTE_DESC",
-      "TERM_DURATION",
-      "GLOBAL_REGIONS",
-      "GLOBAL_COUNTRIES",
-      "ON_LINE_PAGE_NUMBER",
       "ACADEMIC_YEAR",
       "SUBJECT_ID",
       "SUBJECT_CODE",
@@ -14251,7 +14235,23 @@
       "SCHOOL_WIDE_ELECTIVES",
       "MEETS_WITH_SUBJECTS",
       "EQUIVALENT_SUBJECTS",
-      "IS_OFFERED_THIS_YEAR"
+      "IS_OFFERED_THIS_YEAR",
+      "IS_OFFERED_FALL_TERM",
+      "IS_OFFERED_IAP",
+      "IS_OFFERED_SPRING_TERM",
+      "IS_OFFERED_SUMMER_TERM",
+      "FALL_INSTRUCTORS",
+      "SPRING_INSTRUCTORS",
+      "STATUS_CHANGE",
+      "LAST_ACTIVITY_DATE",
+      "WAREHOUSE_LOAD_DATE",
+      "MASTER_SUBJECT_ID",
+      "HASS_ATTRIBUTE",
+      "HASS_ATTRIBUTE_DESC",
+      "TERM_DURATION",
+      "GLOBAL_REGIONS",
+      "GLOBAL_COUNTRIES",
+      "ON_LINE_PAGE_NUMBER"
     ],
     "column_types": [
       "VARCHAR2",
@@ -14334,9 +14334,6 @@
     "db_id": "dw",
     "table_name_original": "TIME_MONTH",
     "column_names_original": [
-      "IS_CLOSING_PERIOD",
-      "FISCAL_PERIOD_SELECTOR",
-      "IS_CURRENT_FISCAL_YEAR",
       "TIME_MONTH_KEY",
       "FISCAL_PERIOD",
       "FISCAL_PERIOD_DESCRIPTION",
@@ -14356,7 +14353,10 @@
       "ACADEMIC_TERM",
       "ACADEMIC_TERM_DESCRIPTION",
       "FINANCIAL_AID_YEAR",
-      "FINANCIAL_AID_YEAR_DESC"
+      "FINANCIAL_AID_YEAR_DESC",
+      "IS_CLOSING_PERIOD",
+      "FISCAL_PERIOD_SELECTOR",
+      "IS_CURRENT_FISCAL_YEAR"
     ],
     "column_types": [
       "VARCHAR2",
@@ -14650,13 +14650,13 @@
     "db_id": "dw",
     "table_name_original": "SIS_ADMIN_DEPARTMENT",
     "column_names_original": [
-      "WAREHOUSE_LOAD_DATE",
       "SIS_ADMIN_DEPARTMENT_CODE",
       "SIS_ADMIN_DEPARTMENT_NAME",
       "DEPARTMENT_PHONE_AREA_CODE",
       "DEPARTMENT_PHONE_NUMBER",
       "CLEARING_COST_COLLECTOR",
-      "LAST_ACTIVITY_DATE"
+      "LAST_ACTIVITY_DATE",
+      "WAREHOUSE_LOAD_DATE"
     ],
     "column_types": [
       "DATE",
