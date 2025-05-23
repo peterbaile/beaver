@@ -1,218 +1,445 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <!-- <meta name="description" content="Beaver: An Enterprise Benchmark for Text-to-SQL"> -->
-  <meta property="og:title" content="Beaver: An Enterprise Benchmark for Text-to-SQL"/>
-  <!-- <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/> -->
-  <meta property="og:url" content="https://peterbaile.github.io/beaver/"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/images/beaver.png" />
-  <!-- <meta property="og:image:width" content="1200"/>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J696KH33YJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-J696KH33YJ');
+    </script>
+
+    <meta charset="utf-8" />
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <!-- <meta name="description" content="Beaver: An Enterprise Benchmark for Text-to-SQL"> -->
+    <meta
+      property="og:title"
+      content="Beaver: An Enterprise Benchmark for Text-to-SQL"
+    />
+    <!-- <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/> -->
+    <meta property="og:url" content="https://peterbaile.github.io/beaver/" />
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="static/images/beaver.png" />
+    <!-- <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/> -->
 
+    <meta
+      name="twitter:title"
+      content="Beaver: An Enterprise Benchmark for Text-to-SQL"
+    />
+    <!-- <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG"> -->
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+    <meta name="twitter:image" content="static/images/beaver.png" />
+    <!-- <meta name="twitter:card" content="summary_large_image"> -->
+    <!-- Keywords for your paper to be indexed by-->
+    <!-- <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta name="twitter:title" content="Beaver: An Enterprise Benchmark for Text-to-SQL">
-  <!-- <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG"> -->
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/beaver.png">
-  <!-- <meta name="twitter:card" content="summary_large_image"> -->
-  <!-- Keywords for your paper to be indexed by-->
-  <!-- <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE"> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BEAVER: An Enterprise Benchmark for Text-to-SQL</title>
+    <link rel="icon" type="image/x-icon" href="static/images/beaver.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+      rel="stylesheet"
+    />
 
+    <link rel="stylesheet" href="static/css/bulma.min.css" />
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css" />
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css" />
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+    <link rel="stylesheet" href="static/css/index.css" />
 
-  <title>BEAVER: An Enterprise Benchmark for Text-to-SQL</title>
-  <link rel="icon" type="image/x-icon" href="static/images/beaver.png">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
 
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
+    <!--imports for code highlighting and copy-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
-</head>
-<body>
+    <script>
+      // for copy button
+      document.addEventListener("DOMContentLoaded", function () {
+        const clipboard = new ClipboardJS(".copy-btn");
+        clipboard.on("success", function (e) {
+          e.trigger.innerText = "Copied!";
+          setTimeout(() => (e.trigger.innerText = "Copy"), 1500);
+        });
+      });
 
+      let leaderboards = {};
+      let changelog = {};
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">🦫 BEAVER: An Enterprise Benchmark for Text-to-SQL</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="https://peterbaile.github.io/" target="_blank">Peter Baile Chen</a><sup>1</sup>,</span>
+      function fetchData() {
+        fetch("static/jsons/leaderboard.json")
+          .then((response) => response.json())
+          .then((data) => {
+            leaderboards = data;
+            switchLeaderboard("Table Retrieval");
+          })
+          .catch((error) =>
+            console.error("Error loading leaderboard data:", error),
+          );
+        fetch("static/jsons/changelog.json")
+          .then((response) => response.json())
+          .then((data) => {
+            changelog = data;
+            fillChangelog();
+          })
+          .catch((error) =>
+            console.error("Error loading changelog data:", error),
+          );
+      }
+
+      function fillChangelog() {
+        const logBody = document.getElementById("changelog-body");
+        changelog.forEach((entry) => {
+          const div = document.createElement("div");
+          div.classList.add("box", "content", "mt-1", "mb-1", "p-3");
+
+          const h2 = document.createElement("h2");
+          h2.classList.add("title", "is-5");
+          h2.innerHTML = `Update ${entry["number"]}<span class="tag is-info ml-2">${entry.date}</span>`;
+          div.appendChild(h2);
+
+          if ("new" in entry) {
+            const p1 = document.createElement("p");
+            p1.innerHTML = "<strong>✨ New:</strong>";
+            div.appendChild(p1);
+
+            const ul1 = document.createElement("ul");
+            entry["new"].forEach((feature) => {
+              const li = document.createElement("li");
+              li.innerHTML = feature;
+              ul1.appendChild(li);
+            });
+            div.appendChild(ul1);
+          }
+          if ("improvements" in entry) {
+            const p2 = document.createElement("p");
+            p2.innerHTML = "<strong>⚡ Improvements:</strong>";
+            div.appendChild(p2);
+
+            const ul2 = document.createElement("ul");
+            entry["improvements"].forEach((improvement) => {
+              const li = document.createElement("li");
+              li.innerHTML = improvement;
+              ul2.appendChild(li);
+            });
+            div.appendChild(ul2);
+          }
+          if ("notes" in entry) {
+            const p3 = document.createElement("p");
+            p3.innerHTML = "<strong>📝 Notes:</strong>";
+            div.appendChild(p3);
+
+            const ul3 = document.createElement("ul");
+            entry["notes"].forEach((note) => {
+              const li = document.createElement("li");
+              li.innerHTML = note;
+              ul3.appendChild(li);
+            });
+            div.appendChild(ul3);
+          }
+
+          logBody.appendChild(div);
+        });
+      }
+
+      function switchLeaderboard(type) {
+        const tbody = document.getElementById("leaderboard-body");
+        tbody.innerHTML = "";
+
+        if (!leaderboards[type] || leaderboards[type].length === 0) {
+          tbody.innerHTML = `<tr><td colspan="3" class="has-text-centered">No data available</td></tr>`;
+          return;
+        }
+
+        leaderboards[type].forEach((entry) => {
+          const row = `<tr>
+        <td>${entry.rank}</td>
+        <td><img alt="Static Badge" src="https://img.shields.io/badge/${entry.method}-2E333D?style=flat"></td>
+        <td>${entry.score}</td>
+      </tr>`;
+          tbody.innerHTML += row;
+        });
+
+        document.querySelectorAll(".buttons button").forEach((btn) => {
+          btn.classList.remove("is-dark");
+          btn.classList.add("is-light");
+        });
+        document.getElementById(type).classList.remove("is-light");
+        document.getElementById(type).classList.add("is-dark");
+      }
+
+      window.onload = fetchData;
+    </script>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">
+                🦫 BEAVER: An Enterprise Benchmark for Text-to-SQL
+              </h1>
+              <div class="is-size-5 publication-authors">
+                <!-- Paper authors -->
                 <span class="author-block">
-                  <a href="#" target="_blank">Fabian Wenz</a><sup>1,4</sup>,</span>
-                  <span class="author-block">
-                    <a href="#" target="_blank">Yi Zhang</a><sup>2</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a href="https://homes.cs.washington.edu/~kayali/" target="_blank">Moe Kayali</a><sup>5</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a href="#" target="_blank">Nesime Tatbul</a><sup>1</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a href="https://people.csail.mit.edu/michjc/" target="_blank">Michael Cafarella</a><sup>1</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a href="https://cagataydemiralp.io/" target="_blank">Çağatay Demiralp</a><sup>1,3</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a href="#" target="_blank">Michael Stonebraker</a><sup>1</sup>
-                  </span>
-                  </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block"><sup>1</sup>MIT, <sup>2</sup>AWS AI Labs, <sup>3</sup>Amazon, <sup>4</sup>Technical University of Munich, <sup>5</sup>University of Washington</span>
-                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
-                  </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <!-- <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Arxiv</span>
-                      </a>
-                    </span> -->
-
-                    <!-- Supplementary PDF link -->
-                    <!-- <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Dataset and Code (coming soon)</span>
-                    </a>
-                  </span> -->
-                  
-                  <!-- ArXiv abstract Link -->
-                  <span class="link-block">
-                    <a href="https://arxiv.org/abs/2409.02038" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                    </span>
-                    <span>arXiv</span>
-                  </a>
+                  <a href="https://peterbaile.github.io/" target="_blank"
+                    >Peter Baile Chen</a
+                  ><sup>1</sup>,</span
+                >
+                <span class="author-block">
+                  <a href="#" target="_blank">Fabian Wenz</a
+                  ><sup>1,3</sup>,</span
+                >
+                <span class="author-block">
+                  <a href="#" target="_blank">Yi Zhang</a><sup>2</sup>,
                 </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Devin Yang</a><sup>1</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Justin Choi</a><sup>1</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Nesime Tatbul</a><sup>1</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="https://people.csail.mit.edu/michjc/" target="_blank"
+                    >Michael Cafarella</a
+                  ><sup>1</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="https://cagataydemiralp.io/" target="_blank"
+                    >Çağatay Demiralp</a
+                  ><sup>1,2</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Michael Stonebraker</a
+                  ><sup>1</sup>
+                </span>
+              </div>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"
+                  ><sup>1</sup>MIT, <sup>2</sup>AWS AI Labs,
+                  <sup>3</sup>Technical University of Munich</span>
+              </div>
+
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <span class="link-block">
+                    <a
+                      href="https://arxiv.org/abs/2409.02038"
+                      target="_blank"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>arXiv</span>
+                    </a>
+                  </span>
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/peterbaile/beaver" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Dataset and Code</span>
-                  </a>
-                </span>
-
-                
+                    <a
+                      href="https://github.com/peterbaile/beaver"
+                      target="_blank"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Dataset and Code</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- Teaser video-->
-<!-- <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section> -->
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Existing text-to-SQL benchmarks have largely been constructed using publicly available tables from the web with human-generated tests containing question and SQL statement pairs. They typically show very good results and lead people to think that LLMs are effective at text-to-SQL tasks. In this paper, we apply off-the-shelf LLMs to a benchmark containing enterprise data warehouse data. In this environment, LLMs perform poorly, even when standard prompt engineering and RAG techniques are utilized.
-            <br />
-            As we will show, the reasons for poor performance are largely due to three characteristics: (1) public LLMs cannot train on enterprise data warehouses because they are largely in the "dark web", (2) schemas of enterprise tables are more complex than the schemas in public data, which leads the SQL-generation task innately harder, and (3) business-oriented questions are often more complex, requiring joins over multiple tables and aggregations.
-            <br />
-            As a result, we propose a new dataset BEAVER, sourced from real enterprise data warehouses together with natural language queries and their correct SQL statements which we collected from actual user history. We evaluated this dataset using recent LLMs and demonstrated their poor performance on this task. We hope this dataset will facilitate future researchers building more sophisticated text-to-SQL systems which can do better on this important class of data.
-          </p>
+    </section>
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-variable is-8 is-multiline is-size-7">
+          <div class="column is-half-desktop is-full-touch">
+            <div class="left-boxes">
+              <h2 class="title is-4">BEAVER</h2>
+              <p>Beaver is an enterprise text-to-SQL dataset consisted of xxx queries and xxx tables across xxx databases. Queries and databases were collected from <i>private</i> organizations. Compared to previous text-to-SQL datasets focusing on public tables and 
+              We also encourage the problem open-domain text-to-SQL</p>
+            </div>
+            <div class="left-boxes">
+              <h2 class="title is-4">Usage</h2>
+              <p>
+                We have created a unified MySQL version for our dataset. A free
+                MySQL installation can be found
+                <a href="https://dev.mysql.com/downloads/mysql/">here</a>. After
+                the installation, import the MySQL dump files from the google
+                drive to your local MySQL databases using
+              </p>
+              <pre><code>mysql -u root -p < `xxx.sql`</code></pre>
+              <p>
+                To execute a SQL statement, you can either log in to the MySQL
+                interface or you can do it via
+                <a href="https://pypi.org/project/mysql-connector-python/"
+                  >mysql-connector-python</a
+                >.
+              </p>
+              <br />
+              <p>
+                If you want to use the Oracle version of
+                <code>DW</code> queries, you can download the free oracle
+                database and import the CSVs.
+              </p>
+            </div>
+            <div class="left-boxes">
+              <h2 class="title is-4">Changelog</h2>
+              <div class="container" id="changelog-body"></div>
+            </div>
+            <!--<div class="left-boxes">-->
+            <!--  <h2 class="title is-4">Submission</h2>-->
+            <!--</div>-->
+            <div class="left-boxes">
+              <h2 class="title is-4">Citation</h2>
+              <p>
+                If you find our data or the paper helpful, please cite the
+                paper:
+              </p>
+              <div class="code-container">
+                <pre><code id="codeBlock">@article{chen2024beaver,
+title={BEAVER: an enterprise benchmark for text-to-sql},
+  author={Chen, Peter Baile and Wenz, Fabian and Zhang, Yi and Yang, Devin and Choi, Justin and Tatbul, Nesime and Cafarella, Michael and Demiralp, {\c{C}}a{\u{g}}atay and Stonebraker, Michael},
+  journal={arXiv preprint arXiv:2409.02038},
+  year={2024}
+}</code></pre>
+                <button class="copy-btn" data-clipboard-target="#codeBlock">
+                  Copy
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Leaderboard Column -->
+          <div class="column is-7 is-half-desktop is-full-touch">
+            <h2 class="title is-3 has-text-centered">Leaderboard</h2>
+            <div class="buttons is-flex is-justify-content-center">
+              <div
+                class="buttons has-text-centered is-flex is-justify-content-center"
+              >
+                <button
+                  id="Table Retrieval"
+                  class="button is-primary is-size-7"
+                  onclick="switchLeaderboard('Table Retrieval')"
+                >
+                  Table Retrieval
+                </button>
+                <button
+                  id="Column Mapping"
+                  class="button is-success is-size-7"
+                  onclick="switchLeaderboard('Column Mapping')"
+                >
+                  Column Mapping
+                </button>
+                <button
+                  id="Join Key Detection"
+                  class="button is-info is-size-7"
+                  onclick="switchLeaderboard('Join Key Detection')"
+                >
+                  Join Key Detection
+                </button>
+                <button
+                  id="SQL Generation"
+                  class="button is-link is-size-7"
+                  onclick="switchLeaderboard('SQL Generation')"
+                >
+                  SQL Generation
+                </button>
+                <button
+                  id="Open-Domain SQL Generation"
+                  class="button is-light is-size-7"
+                  onclick="switchLeaderboard('Open-Domain SQL Generation')"
+                >
+                  Open-Domain SQL Generation
+                </button>
+              </div>
+            </div>
+            <div class="table-container">
+              <table class="table is-hoverable is-fullwidth is-size-7">
+                <thead>
+                  <tr>
+                    <th>Rank</th>
+                    <th>Method</th>
+                    <th>Score</th>
+                  </tr>
+                </thead>
+                <tbody id="leaderboard-body">
+                  <!-- Leaderboard data will be inserted here -->
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-
-
-<!--BibTex citation -->
-  <!-- <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
-    </div>
-</section> -->
-<!--End BibTex citation -->
-
-
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
+    </section>
   </body>
-  </html>
+  <style>
+    .code-container {
+      position: relative;
+      display: block;
+      max-width: 100%;
+    }
+
+    pre {
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+      max-width: 100%;
+      white-space: pre;
+    }
+
+    .copy-btn {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      padding: 5px 10px;
+      background: #effaf3;
+      color: black;
+      border: none;
+      cursor: pointer;
+      font-size: 11px;
+      border-radius: 5px;
+      opacity: 0.8;
+      border: 0.1px solid black;
+    }
+
+    .copy-btn:hover {
+      background: #48c774;
+      color: white;
+    }
+
+    .left-boxes {
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+  </style>
+</html>

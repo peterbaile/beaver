@@ -1,0 +1,13 @@
+{
+  "Table Retrieval": [
+    { "rank": 1, "method": "chatgpt-gpt--4o", "score": 98.7 },
+    { "rank": 2, "method": "RandomForestBoost", "score": 96.5 },
+    { "rank": 3, "method": "SVM--Gaussian", "score": 94.8 },
+    { "rank": 4, "method": "Decision Tree", "score": 90.3 },
+    { "rank": 5, "method": "KNN", "score": 88.1 }
+  ],
+  "Column Mapping": [],
+  "Join Key Detection": [],
+  "SQL Generation": [],
+  "Open-Domain SQL Generation": []
+}

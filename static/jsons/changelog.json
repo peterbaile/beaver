@@ -1,0 +1,31 @@
+[
+  {
+    "date": "March 1, 2025",
+    "number": "3",
+    "new": [
+      "For a streamlined and rapid setup, we've translated all DW queries from Oracle SQL to MySQL dialect. A MySQL version of the DW database is also available in Google Drive.",
+      "Each DW query comes with a SQL statement in both Oracle and MySQL dialects, allowing for benchmarking tasks such as SQL dialect translation."
+    ],
+    "improvements": [
+      "Expanded DW queries so that in total there are 209 queries",
+      "Improved performance for large datasets."
+    ],
+    "notes": [
+      "We are planning to release more queries and databases from a new source in the coming weeks."
+    ]
+  },
+  {
+    "date": "January 19, 2025",
+    "number": "2",
+    "improvements": [
+      "Added more queries and tables available across 6 databases: 191 queries and 463 tables"
+    ]
+  },
+  {
+    "date": "October 28, 2024",
+    "number": "1",
+    "new": [
+      "Subset of queries and tables are available: 49 queries and 99 tables"
+    ]
+  }
+]
